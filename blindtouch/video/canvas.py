@@ -200,12 +200,12 @@ class Mixer:
 
 # ----------------------------------------------------------------------------------------------- video writer
 class Writer:
-    def __init__(self, path):
+    def __init__(self, path, size: tuple[int, int] = (W, H)):
         import av
 
         self.c = av.open(str(path), mode="w")
         self.s = self.c.add_stream("libx264", rate=FPS)
-        self.s.width, self.s.height, self.s.pix_fmt = W, H, "yuv420p"
+        (self.s.width, self.s.height), self.s.pix_fmt = size, "yuv420p"
         self.s.options = {"crf": "16", "preset": "medium"}
         self.n = 0
         self.snaps: list = []
@@ -219,7 +219,7 @@ class Writer:
         import av
 
         if self.n % 60 == 30:
-            self.snaps.append(cv2.resize(img, (480, 270)))
+            self.snaps.append(cv2.resize(img, (360, 360 * img.shape[0] // img.shape[1])))
         self.prev = img
         for p in self.s.encode(av.VideoFrame.from_ndarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB), format="rgb24")):
             self.c.mux(p)

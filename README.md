@@ -26,9 +26,20 @@ MuJoCo, builds the fixes, and then tests whether the result is good enough for r
 sensor and no camera at the moment of contact**. Everything it feels comes from joint angles, speeds and motor
 torques.
 
-## Three real jobs, felt through the motors
+## Four real jobs, felt through the motors
 
 Each clip shows one success and one **real failure**. Failures aren't cut out.
+
+<div align="center">
+
+**Insert a peg into a hidden hole** (1.5 mm clearance)
+
+<img src="media/peg.gif" width="420" alt="Peg insertion: a failure above, a success below"/>
+
+Touch down, spiral until it drops in, push. If it feels the peg catch on the rim, it backs off and tries again.<br/>
+**100 %** of 50 trials. *The failure above is a held-out trial where the hole was further off than the search covers.*
+
+</div>
 
 <table>
 <tr>
@@ -68,7 +79,7 @@ Lift each can and weigh it through the motors.
 In every trial the motor imperfections are switched on at random. A run only counts as a success if the job is
 done **and** the true contact force stayed within the job's force budget.
 
-> 🎬 **Full 90-second video** (with sound): see the [Releases page](../../releases).
+> 🎬 **Videos** (with sound): the 55-second LinkedIn cut and the 90-second showcase are on the [Releases page](../../releases).
 
 ## What made it work
 
@@ -96,7 +107,8 @@ Full tables: [`results/sensing.md`](results/sensing.md).
   tell that apart from a real contact force (about 2–2.5 N). With friction on, plugging in drops from 89 % to 50 %.
 - **Placement it wasn't built for.** On new seeds and wider worlds, with the code unchanged, success drops:
   socket 77 % → 60 % when it can be anywhere within ±4 cm, and whiteboard 90 % → 67 % with the board turned and
-  moved twice as far. With all five imperfections on at once: socket 40 %, whiteboard 80 %, cans 47 %. Full table:
+  moved twice as far. With all five imperfections on at once: socket 40 %, whiteboard 80 %, cans 47 %. The peg
+  holds up best: 100 % on new seeds, also with all imperfections on, and 93 % with the hole twice as far off. Full table:
   [`results/robustness.md`](results/robustness.md).
 - **The jobs are hand-built procedures** on a shared set of touch skills, not learned policies.
 - **Simulation only.** The next step is a real arm.
@@ -110,7 +122,7 @@ flowchart LR
         O --> F["Fixes<br/>disturbance observer · anticogging · integral"]
         F --> S["Felt force at the tool"]
         S --> K["Touch skills<br/>touch down · slide · turn · push · weigh"]
-        K --> J["Jobs<br/>socket · whiteboard · cans"]
+        K --> J["Jobs<br/>peg · socket · whiteboard · cans"]
     end
     subgraph Sim["MuJoCo simulation"]
         P["True arm + 5 imperfections"]
@@ -130,10 +142,10 @@ blindtouch/
   sim/        the arm, the five imperfections, impedance control, ground-truth contacts
   sensing/    momentum observer, anticogging calibration
   skills/     the touch layer: touch down, slide, turn, push, weigh, recover from mistakes
-  jobs/       socket, whiteboard, cans (+ force audit and budget)
+  jobs/       peg, socket, whiteboard, cans (+ force audit and budget)
   scenes/     real-dimension props and MJCF scene generation; OpenArm v2 meshes
   eval/       job evaluation, robustness check, sensing report
-  video/      re-render any evaluated run as video
+  video/      re-render any evaluated run as video (job clips, showcase, LinkedIn cut)
 results/      every number above, as Markdown tables and raw JSON
 media/        the clips in this README
 tests/        unit tests (observer, simulation, realism switches)
@@ -151,13 +163,14 @@ pytest                      # unit tests, ~15 s
 python -c "from blindtouch.jobs.socket import SocketJob; print(SocketJob().run(800004).row(800004))"
 
 # the evaluations behind the numbers above
-python -m blindtouch.eval.jobs --jobs socket whiteboard cans --trials 50 --workers 4
+python -m blindtouch.eval.jobs --jobs peg socket whiteboard cans --trials 50 --workers 4
 python -m blindtouch.eval.sensing --n 20 --workers 4
 python -m blindtouch.eval.robustness --trials 30 --workers 4
 
 # videos
 python -m blindtouch.video.job_clip socket --seeds 800004 800032
-python -m blindtouch.video.showcase          # the full 90 s video -> out/
+python -m blindtouch.video.showcase          # the 90 s showcase -> out/
+python -m blindtouch.video.short             # the 55 s portrait cut with voice-over (needs edge-tts)
 ```
 
 ## Credits

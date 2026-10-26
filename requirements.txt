@@ -9,5 +9,6 @@ opencv-python-headless>=4.9
 av>=12
 pillow>=10
 imageio-ffmpeg>=0.5
+edge-tts>=7        # voice-over of the LinkedIn cut (online)
 # tests
 pytest>=8
