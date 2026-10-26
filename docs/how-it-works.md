@@ -65,7 +65,8 @@ felt:
 
 ## 5. Jobs ([`jobs/`](../blindtouch/jobs))
 
-Each job randomises its world per seed (positions, angles, friction, can contents) and the imperfections. It runs
+Four jobs: peg into a hidden hole, plug in a charger, erase a sloped whiteboard, weigh cans. Each job randomises
+its world per seed (hole and socket positions, angles, friction, can contents) and the imperfections. It runs
 its procedure using only what the robot feels, and is then judged from simulator truth. A [force
 audit](../blindtouch/jobs/force_audit.py) records the true contact force per contact pair and procedure step. A
 run above the job's force budget does not count as a success.
@@ -74,7 +75,7 @@ run above the job's force budget does not count as a success.
 
 | result | command | output |
 |---|---|---|
-| job success rates | `python -m blindtouch.eval.jobs --jobs socket whiteboard cans --trials 50` | `results/jobs.md`, `results/jobs/*.json` |
+| job success rates | `python -m blindtouch.eval.jobs --jobs peg socket whiteboard cans --trials 50` | `results/jobs.md`, `results/jobs/*.json` |
 | felt vs true force, per imperfection and fix | `python -m blindtouch.eval.sensing --n 20` | `results/sensing.md` |
 | end-stop test | `python -m blindtouch.eval.sensing --limits` | `results/sensing_limits.md` |
 | sensing figure | `python -m blindtouch.eval.sensing_figure` | `results/figures/sensing.png` |

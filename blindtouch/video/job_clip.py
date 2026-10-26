@@ -50,8 +50,8 @@ CAMS = {   # lookat offset from the fixture (cans: from the table centre), dista
 class EpisodeView:
     """One recorded episode: frames, felt force (from the touch layer's trace), steps, verdict."""
 
-    def __init__(self, kind: str, seed: int) -> None:
-        job = job_class(kind)()
+    def __init__(self, kind: str, seed: int, **ranges) -> None:
+        job = job_class(kind)(**ranges)
         rec = Recorder()
         self.ink = None
         hooks = [rec]

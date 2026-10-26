@@ -55,6 +55,8 @@ class Recorder:
 class Studio:
     def __init__(self, scene: str = "peg", width: int = W, height: int = H) -> None:
         self.model = mujoco.MjModel.from_xml_path(str(scene_path(scene)))
+        g = self.model.vis.global_
+        g.offwidth, g.offheight = max(g.offwidth, width), max(g.offheight, height)   # e.g. portrait frames
         self.data = mujoco.MjData(self.model)
         self.r = mujoco.Renderer(self.model, height, width)
         self.w, self.h = width, height
