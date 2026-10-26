@@ -1,0 +1,200 @@
+<!--
+Single OpenArm v2 right arm, torque controlled, holding a peg.
+
+Derived from Enactic's openarm_mujoco v2 bimanual model (Apache-2.0, see
+assets/LICENSE-openarm). Changes from the original:
+  * only the right arm is kept;
+  * the position servos are replaced by `motor` actuators, so the control input
+    is joint torque -- the same signal a real driver reports as motor current;
+  * joint `frictionloss` is zero here: friction is a realism effect that
+    blindtouch/sim/realism.py switches on per episode, so the nominal model (the
+    one the robot believes) and the true plant can differ in a controlled way;
+  * two variants of the hand (build.py): the true plant has the real
+    gripper -- hinged fingers coupled by a mimic constraint, squeezed by a
+    position servo, fingertip collision with torsional friction -- holding a
+    free peg by friction alone; the nominal model the robot believes has the
+    fingers frozen at the grasp angle and the peg rigidly attached (a known
+    payload), so a peg that slips or tilts in the grasp is a real, unmodelled
+    error.
+
+Collision filtering: arm geoms use contype=2 conaffinity=1 and the world uses
+contype=1 conaffinity=2, so the arm never collides with itself but does with
+the table, the hole, the wiping board and the poke probes.
+
+Included by the scene files with <include file="openarm_right.xml"/>.
+-->
+<mujoco model="openarm_right">
+  <compiler angle="radian" meshdir="assets" autolimits="true"/>
+
+  <default>
+    <default class="arm">
+      <joint type="hinge" limited="true" frictionloss="0" />
+      <default class="dm8009">
+        <joint damping="1.0" armature="0.0081" />
+        <motor ctrlrange="-40 40" />
+      </default>
+      <default class="dm4340">
+        <joint damping="0.9" armature="0.16" />
+        <motor ctrlrange="-27 27" />
+      </default>
+      <default class="dm4310">
+        <joint damping="0.9" armature="0.01" />
+        <motor ctrlrange="-7 7" />
+      </default>
+      <default class="arm_collision">
+        <geom group="3" contype="2" conaffinity="1" condim="3" solref="0.004 1" friction="0.8 0.01 0.001" rgba="0.8 0.2 0.2 0.5" />
+      </default>
+      <default class="finger">
+        <joint damping="2" armature="0.01" frictionloss="0" />
+      </default>
+      <default class="fingertip">
+        <!-- condim 4: torsional friction. 0.02 m effective patch radius: a rubber pad conforming around the 24 mm
+             peg gives a ~20 mm tall contact strip; with 0.01 the peg crept ~1 deg per probe in the grasp -->
+        <geom group="3" contype="2" conaffinity="1" condim="4" solref="0.004 1" friction="1 0.02 0.01" rgba="0.8 0.2 0.2 0.5" />
+      </default>
+      <default class="arm_visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+    </default>
+  </default>
+
+  <asset>
+    <material name="pale_silver" rgba="0.75 0.75 0.75 1" specular="1.0" shininess="0.9" reflectance="0.2" />
+    <material name="metal_silver" rgba="0.65 0.65 0.65 1.0" specular="1.0" shininess="0.9" reflectance="0.2" />
+    <material name="matte_black" rgba="0.16 0.16 0.17 1.0" reflectance="0.05" shininess="0.5" />
+    <material name="peg_mat" rgba="0.85 0.55 0.15 1" specular="0.6" shininess="0.6" />
+
+    <mesh name="base_link_00" file="arm/base_link_00.obj" />
+    <mesh name="base_link_01" file="arm/base_link_01.obj" />
+    <mesh name="base_link_c" file="collision/base_link.stl" />
+    <mesh name="link1_00" file="arm/link1_00.obj" />
+    <mesh name="link1_01" file="arm/link1_01.obj" />
+    <mesh name="link1_02" file="arm/link1_02.obj" />
+    <mesh name="link1_c" file="collision/link1.stl" />
+    <mesh name="link2_00" file="arm/link2_00.obj" />
+    <mesh name="link2_01" file="arm/link2_01.obj" />
+    <mesh name="link2_02" file="arm/link2_02.obj" />
+    <mesh name="link2_c" file="collision/link2.stl" />
+    <mesh name="link3_00" file="arm/link3_00.obj" />
+    <mesh name="link3_01" file="arm/link3_01.obj" />
+    <mesh name="link3_02" file="arm/link3_02.obj" />
+    <mesh name="link3_c" file="collision/link3.stl" />
+    <mesh name="link4_00" file="arm/link4_00.obj" />
+    <mesh name="link4_01" file="arm/link4_01.obj" />
+    <mesh name="link4_02" file="arm/link4_02.obj" />
+    <mesh name="link4_c" file="collision/link4.stl" />
+    <mesh name="link5_00" file="arm/link5_00.obj" />
+    <mesh name="link5_01" file="arm/link5_01.obj" />
+    <mesh name="link5_02" file="arm/link5_02.obj" />
+    <mesh name="link5_c0" file="collision/link5_part_00.stl" />
+    <mesh name="link5_c1" file="collision/link5_part_01.stl" />
+    <mesh name="link5_c2" file="collision/link5_part_02.stl" />
+    <mesh name="link6_00" file="arm/link6_00.obj" />
+    <mesh name="link6_01" file="arm/link6_01.obj" />
+    <mesh name="link6_02" file="arm/link6_02.obj" />
+    <mesh name="link6_c" file="collision/link6.stl" />
+    <mesh name="ee_00" file="gripper/ee_base_link_00.obj" />
+    <mesh name="ee_01" file="gripper/ee_base_link_01.obj" />
+    <mesh name="ee_02" file="gripper/ee_base_link_02.obj" />
+    <mesh name="ee_c" file="collision/ee_base_link.stl" />
+    <mesh name="finger_inner_00" file="gripper/finger_inner_00.obj" />
+    <mesh name="finger_inner_01" file="gripper/finger_inner_01.obj" />
+    <mesh name="finger_inner_02" file="gripper/finger_inner_02.obj" />
+    <mesh name="finger_outer_00" file="gripper/finger_outer_00.obj" />
+    <mesh name="finger_outer_01" file="gripper/finger_outer_01.obj" />
+    <mesh name="finger_outer_02" file="gripper/finger_outer_02.obj" />
+    <mesh name="finger_inner_c0" file="collision/finger_inner_part_00.stl" />
+    <mesh name="finger_inner_c1" file="collision/finger_inner_part_01.stl" />
+    <mesh name="finger_inner_c2" file="collision/finger_inner_part_02.stl" />
+    <mesh name="finger_inner_c3" file="collision/finger_inner_part_03.stl" />
+    <mesh name="finger_outer_c0" file="collision/finger_outer_part_00.stl" />
+    <mesh name="finger_outer_c1" file="collision/finger_outer_part_01.stl" />
+    <mesh name="finger_outer_c2" file="collision/finger_outer_part_02.stl" />
+    <mesh name="finger_outer_c3" file="collision/finger_outer_part_03.stl" />
+  </asset>
+
+  <worldbody>
+    <body name="arm_mount" pos="0 0 MOUNT_Z" quat="MOUNT_QUAT">
+      <site name="arm_origin" pos="0 0 0" size="0.02" group="4" />
+      <body name="base_link" pos="0 -0.031 0" childclass="arm">
+        <inertial pos="-0.00253124 -0.0258186 -2.70658e-05" quat="2.1457591538e-05 0.706815721259 0.70739772103 -1.46856942085e-06" mass="1.14323" diaginertia="0.00159935 0.00113608 0.000750542" />
+        <geom class="arm_visual" mesh="base_link_00" material="matte_black" quat="0 0 1 0" />
+        <geom class="arm_visual" mesh="base_link_01" material="pale_silver" quat="0 0 1 0" />
+        <body name="link1" pos="0 -0.0625 0">
+          <inertial pos="0.00090035 -0.044466 2.88441e-05" quat="0.999901 0.000371041 -5.04627e-05 0.0140338" mass="1.14167" diaginertia="0.00109459 0.000758935 0.000670659" />
+          <joint name="joint1" axis="0 -1 0" range="-1.3963 3.4907" class="dm8009" />
+          <geom class="arm_visual" mesh="link1_00" material="matte_black" />
+          <geom class="arm_visual" mesh="link1_01" material="pale_silver" />
+          <geom class="arm_visual" mesh="link1_02" material="metal_silver" />
+          <geom name="link1_c" type="mesh" mesh="link1_c" class="arm_collision" />
+          <body name="link2" pos="0 -0.06 0">
+            <inertial pos="-0.0247185 7.60578e-08 -0.0312643" quat="0.999342 6.47495e-06 -0.0362804 -3.02331e-06" mass="0.277509" diaginertia="0.000153968 0.000113062 8.19211e-05" />
+            <joint name="joint2" axis="-1 0 0" range="-0.17453 3.3161" class="dm8009" />
+            <geom class="arm_visual" mesh="link2_00" material="matte_black" />
+            <geom class="arm_visual" mesh="link2_01" material="metal_silver" />
+            <geom class="arm_visual" mesh="link2_02" material="pale_silver" />
+            <geom name="link2_c" type="mesh" mesh="link2_c" class="arm_collision" />
+            <body name="link3" pos="0 0 -0.06625">
+              <inertial pos="-0.00300862 -0.000514813 -0.109368" quat="0.998906 -0.00891348 0.0458105 0.00280505" mass="1.07386" diaginertia="0.00129561 0.00114038 0.000553361" />
+              <joint name="joint3" axis="0 0 -1" range="-1.5708 1.5708" class="dm4340" />
+              <geom class="arm_visual" mesh="link3_00" material="matte_black" />
+              <geom class="arm_visual" mesh="link3_01" material="metal_silver" />
+              <geom class="arm_visual" mesh="link3_02" material="pale_silver" />
+              <geom name="link3_c" type="mesh" mesh="link3_c" class="arm_collision" />
+              <body name="link4" pos="0 0 -0.15375">
+                <inertial pos="-0.00310326 -0.00136539 -0.0574601" quat="0.996952 0.00947325 0.00348083 0.0773554" mass="0.634853" diaginertia="0.000469894 0.000433114 0.000245134" />
+                <joint name="joint4" axis="0 -1 0" range="0 2.4435" class="dm4340" />
+                <geom class="arm_visual" mesh="link4_00" material="matte_black" />
+                <geom class="arm_visual" mesh="link4_01" material="pale_silver" />
+                <geom class="arm_visual" mesh="link4_02" material="metal_silver" />
+                <geom name="link4_c" type="mesh" mesh="link4_c" class="arm_collision" />
+                <body name="link5" pos="0 0 -0.0955">
+                  <inertial pos="-0.000737189 -0.000412407 -0.0470938" quat="0.728019 -0.00297125 -0.0023482 0.685547" mass="0.615659" diaginertia="0.000334799 0.00027946 0.000176657" />
+                  <joint name="joint5" axis="0 0 -1" range="-1.5708 1.5708" class="dm4310" />
+                  <geom class="arm_visual" mesh="link5_00" material="matte_black" />
+                  <geom class="arm_visual" mesh="link5_01" material="pale_silver" />
+                  <geom class="arm_visual" mesh="link5_02" material="metal_silver" />
+                  <geom name="link5_c0" type="mesh" mesh="link5_c0" class="arm_collision" />
+                  <geom name="link5_c1" type="mesh" mesh="link5_c1" class="arm_collision" />
+                  <geom name="link5_c2" type="mesh" mesh="link5_c2" class="arm_collision" />
+                  <body name="link6" pos="0 0 -0.1205">
+                    <inertial pos="2.27438e-05 0.000686496 5.44e-05" quat="0.999832 0.0183155 0.000397003 0.000757974" mass="0.475203" diaginertia="0.000179276 0.000136249 0.000135339" />
+                    <joint name="joint6" axis="0 1 0" range="-0.7854 0.7854" class="dm4310" />
+                    <geom class="arm_visual" mesh="link6_00" material="matte_black" />
+                    <geom class="arm_visual" mesh="link6_01" material="metal_silver" />
+                    <geom class="arm_visual" mesh="link6_02" material="pale_silver" />
+                    <geom name="link6_c" type="mesh" mesh="link6_c" class="arm_collision" />
+                    <body name="hand">
+                      <!-- ee_base_link; the fingers (and, in the rigid nominal variant, the peg) are filled in by scenes/build.py -->
+                      <inertial pos="0.0137902 0.0084073 -0.05938" quat="0.648846 0.760121 0.0169317 0.0304587" mass="0.52832" diaginertia="0.000219417 0.000166122 0.000155742" />
+                      <joint name="joint7" axis="1 0 0" range="-1.5708 1.5708" class="dm4310" />
+                      <geom class="arm_visual" pos="0.0205 0 0" mesh="ee_00" material="matte_black" />
+                      <geom class="arm_visual" pos="0.0205 0 0" mesh="ee_01" material="metal_silver" />
+                      <geom class="arm_visual" pos="0.0205 0 0" mesh="ee_02" material="pale_silver" />
+                      <geom name="hand_c" type="mesh" mesh="ee_c" pos="0.0205 0 0" class="arm_collision" />
+                      <camera name="wrist" pos="0.023 -0.0182 -0.10236" euler="0.366519 0.22689 -1.5708" fovy="66" />
+                      <site name="ee" pos="0 0 0" size="0.01" rgba="1 0 0 1" group="4" />
+HAND_CONTENTS
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <motor name="joint1" joint="joint1" class="dm8009" />
+    <motor name="joint2" joint="joint2" class="dm8009" />
+    <motor name="joint3" joint="joint3" class="dm4340" />
+    <motor name="joint4" joint="joint4" class="dm4340" />
+    <motor name="joint5" joint="joint5" class="dm4310" />
+    <motor name="joint6" joint="joint6" class="dm4310" />
+    <motor name="joint7" joint="joint7" class="dm4310" />
+GRIP_ACTUATOR
+  </actuator>
+GRIP_EQUALITY
+</mujoco>
