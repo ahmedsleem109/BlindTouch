@@ -15,6 +15,9 @@
 | whiteboard | placement x2 | board turned +-20 deg, moved +-4 cm | 67% (49%-81%) | 30 | -23 pts | 13.8 |
 | whiteboard | friction | board 0.2-0.6, felt 0.3-0.7 | 93% (79%-98%) | 30 | +3 pts | 13.8 |
 | whiteboard | all effects | all five motor/model imperfections at once | 80% (63%-90%) | 30 | -10 pts | 13.6 |
+| peg | tuned | hole within +-8 mm of where the robot expects it | 100% (89%-100%) | 30 |  | 10.4 |
+| peg | position x2 | hole within +-16 mm (the spiral reaches 16 mm) | 93% (79%-98%) | 30 | -7 pts | 10.4 |
+| peg | all effects | all five motor/model imperfections at once | 100% (89%-100%) | 30 | +0 pts | 11.1 |
 | cans | tuned | cans placed +-3 mm, friction 0.4-0.7 | 83% (66%-93%) | 30 |  | 15.3 |
 | cans | placement x3 | cans placed +-10 mm off their spots | 70% (52%-83%) | 30 | -13 pts | 15.8 |
 | cans | friction | can friction 0.25-0.9 (greasy to rubbery) | 87% (70%-95%) | 30 | +3 pts | 15.1 |

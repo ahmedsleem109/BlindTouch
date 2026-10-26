@@ -1,6 +1,6 @@
 """Evaluate the contact jobs on the shared touch layer: one table, same layer, same settings.
 
-    python -m blindtouch.eval.jobs --jobs socket whiteboard cans --trials 50 --workers 3
+    python -m blindtouch.eval.jobs --jobs peg socket whiteboard cans --trials 50 --workers 3
 
 Every job: seeds 800000+, realism effects each on with p=0.5, success judged from simulator truth, peak true
 contact force (20 ms average), time, number of touches. Results: results/jobs/<job>.json, results/jobs.md.
@@ -22,7 +22,7 @@ SEED0 = 800_000
 
 
 JOBS = {"socket": ("blindtouch.jobs.socket", "SocketJob"), "whiteboard": ("blindtouch.jobs.whiteboard", "WhiteboardJob"),
-        "cans": ("blindtouch.jobs.cans", "CansJob")}
+        "cans": ("blindtouch.jobs.cans", "CansJob"), "peg": ("blindtouch.jobs.peg", "PegJob")}
 
 
 def job_class(name: str):

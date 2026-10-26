@@ -1,0 +1,2117 @@
+{
+ "job": "peg",
+ "title": "Insert a peg into a hidden hole",
+ "summary": {
+  "n": 50,
+  "success": 1.0,
+  "ci95": [
+   0.9286499658256813,
+   1.0
+  ],
+  "time_s": 6.227999999985485,
+  "peak_force_N_median": 10.539957499016882,
+  "touches_mean": 1.0
+ },
+ "raw": [
+  {
+   "seed": 800000,
+   "success": true,
+   "time": 5.029999999988277,
+   "peak_force": 11.700446873674226,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -2.7,
+    -4.9
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 6.0,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     6.0
+    ],
+    [
+     "peg_c vs hole",
+     5.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.015,
+    0.047,
+    0.018,
+    0.027,
+    0.005,
+    0.011,
+    0.009
+   ]
+  },
+  {
+   "seed": 800001,
+   "success": true,
+   "time": 5.0199999999883005,
+   "peak_force": 10.330921558203983,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    1.2,
+    -4.6
+   ],
+   "tip_vs_hole_mm": 1.5,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 3.7,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     3.7
+    ],
+    [
+     "peg_c vs hole",
+     3.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.001,
+    0.002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800002,
+   "success": true,
+   "time": 5.039999999988254,
+   "peak_force": 10.619266979644276,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    3.4,
+    5.6
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "ripple",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 8.5,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     8.5
+    ],
+    [
+     "peg_c vs table",
+     4.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.044,
+    0.051,
+    0.035,
+    0.047,
+    0.007,
+    0.008,
+    0.007
+   ]
+  },
+  {
+   "seed": 800003,
+   "success": true,
+   "time": 9.389999999978116,
+   "peak_force": 12.112786304419952,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -4.0,
+    3.6
+   ],
+   "tip_vs_hole_mm": 1.1,
+   "realism": "friction+latency",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Mistake (push: stuck on the rim): try a fix learned from experience'",
+   "peak_contact_N": 6.9,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Mistake (push: stuck on the rim): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     6.9
+    ],
+    [
+     "peg_c vs hole",
+     3.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.012,
+    0.031,
+    0.02,
+    0.011,
+    0.014,
+    0.009,
+    0.013
+   ]
+  },
+  {
+   "seed": 800004,
+   "success": true,
+   "time": 4.83999999998872,
+   "peak_force": 10.400950814946679,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    2.3,
+    -1.5
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.7,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.7
+    ],
+    [
+     "peg_c vs hole",
+     3.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.928,
+    0.978,
+    0.876,
+    0.826,
+    0.107,
+    0.052,
+    0.108
+   ]
+  },
+  {
+   "seed": 800005,
+   "success": true,
+   "time": 4.979999999988394,
+   "peak_force": 10.970493700465065,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    4.0,
+    5.4
+   ],
+   "tip_vs_hole_mm": 1.5,
+   "realism": "noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.6,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 6.7,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     6.7
+    ],
+    [
+     "peg_c vs table",
+     4.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.956,
+    1.016,
+    0.926,
+    0.862,
+    0.116,
+    0.052,
+    0.111
+   ]
+  },
+  {
+   "seed": 800006,
+   "success": true,
+   "time": 8.989999999979048,
+   "peak_force": 12.01742853833712,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    6.3,
+    -5.2
+   ],
+   "tip_vs_hole_mm": 1.3,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 6.7,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Mistake (push: stuck on the rim): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     6.7
+    ],
+    [
+     "peg_c vs table",
+     6.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.969,
+    1.02,
+    0.949,
+    0.882,
+    0.098,
+    0.058,
+    0.101
+   ]
+  },
+  {
+   "seed": 800007,
+   "success": true,
+   "time": 6.469999999984921,
+   "peak_force": 11.728131760797382,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -6.9,
+    2.3
+   ],
+   "tip_vs_hole_mm": 1.3,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 6.7,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     6.7
+    ],
+    [
+     "peg_c vs hole",
+     4.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.965,
+    1.02,
+    0.937,
+    0.871,
+    0.115,
+    0.051,
+    0.117
+   ]
+  },
+  {
+   "seed": 800008,
+   "success": true,
+   "time": 10.97999999997441,
+   "peak_force": 12.121010413582436,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.0,
+   "hole_off_mm": [
+    -6.5,
+    7.5
+   ],
+   "tip_vs_hole_mm": 0.7,
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.5,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Mistake (push: stuck on the rim): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.5
+    ],
+    [
+     "peg_c vs hole",
+     4.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.052,
+    0.057,
+    0.041,
+    0.049,
+    0.014,
+    0.007,
+    0.016
+   ]
+  },
+  {
+   "seed": 800009,
+   "success": true,
+   "time": 7.989999999981379,
+   "peak_force": 10.96629379836898,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -3.5,
+    6.3
+   ],
+   "tip_vs_hole_mm": 1.4,
+   "realism": "ripple+latency",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Mistake (push: stuck on the rim): try a fix learned from experience'",
+   "peak_contact_N": 4.1,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Mistake (push: stuck on the rim): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     4.1
+    ],
+    [
+     "peg_c vs table",
+     3.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.041,
+    0.043,
+    0.03,
+    0.038,
+    0.007,
+    0.006,
+    0.007
+   ]
+  },
+  {
+   "seed": 800010,
+   "success": true,
+   "time": 5.009999999988324,
+   "peak_force": 11.782997649344969,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -3.1,
+    -4.7
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 7.3,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     7.3
+    ],
+    [
+     "peg_c vs hole",
+     5.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.032,
+    0.046,
+    0.019,
+    0.014,
+    0.016,
+    0.012,
+    0.009
+   ]
+  },
+  {
+   "seed": 800011,
+   "success": true,
+   "time": 4.999999999988347,
+   "peak_force": 11.517096395778193,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -5.8,
+    -0.1
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 6.0,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     6.0
+    ],
+    [
+     "peg_c vs hole",
+     4.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.021,
+    0.033,
+    0.032,
+    0.021,
+    0.006,
+    0.01,
+    0.012
+   ]
+  },
+  {
+   "seed": 800012,
+   "success": true,
+   "time": 6.769999999984222,
+   "peak_force": 10.325522289666525,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -7.7,
+    -2.5
+   ],
+   "tip_vs_hole_mm": 1.5,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 4.7,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     4.7
+    ],
+    [
+     "peg_c vs hole",
+     4.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.005,
+    0.005,
+    0.001,
+    0.001,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800013,
+   "success": true,
+   "time": 4.92999999998851,
+   "peak_force": 10.172455308311628,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -2.8,
+    -1.2
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 5.7,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.7
+    ],
+    [
+     "peg_c vs hole",
+     3.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.049,
+    0.05,
+    0.051,
+    0.035,
+    0.006,
+    0.006,
+    0.005
+   ]
+  },
+  {
+   "seed": 800014,
+   "success": true,
+   "time": 9.959999999976787,
+   "peak_force": 10.003197883090051,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.0,
+   "hole_off_mm": [
+    3.1,
+    5.8
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.4,
+   "joint_margin_at": "joint 3 during 'Mistake (push: stuck on the rim): try a fix learned from experience'",
+   "peak_contact_N": 9.2,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Mistake (push: stuck on the rim): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     9.2
+    ],
+    [
+     "peg_c vs table",
+     6.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.906,
+    0.949,
+    0.861,
+    0.824,
+    0.106,
+    0.05,
+    0.104
+   ]
+  },
+  {
+   "seed": 800015,
+   "success": true,
+   "time": 7.779999999981868,
+   "peak_force": 10.32926027884351,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    6.7,
+    -7.0
+   ],
+   "tip_vs_hole_mm": 1.2,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 4.4,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     4.4
+    ],
+    [
+     "peg_c vs hole",
+     3.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.002,
+    0.002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800016,
+   "success": true,
+   "time": 5.049999999988231,
+   "peak_force": 11.531306304763655,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -2.3,
+    5.5
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.6,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 7.8,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     7.8
+    ],
+    [
+     "peg_c vs hole",
+     5.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.013,
+    0.043,
+    0.026,
+    0.019,
+    0.003,
+    0.007,
+    0.015
+   ]
+  },
+  {
+   "seed": 800017,
+   "success": true,
+   "time": 4.9199999999885335,
+   "peak_force": 11.310660072222506,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    1.7,
+    5.6
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.6,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 6.4,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     6.4
+    ],
+    [
+     "peg_c vs hole",
+     4.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.949,
+    0.999,
+    0.921,
+    0.87,
+    0.102,
+    0.051,
+    0.104
+   ]
+  },
+  {
+   "seed": 800018,
+   "success": true,
+   "time": 8.009999999981332,
+   "peak_force": 10.399636497476177,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    6.7,
+    -3.5
+   ],
+   "tip_vs_hole_mm": 0.9,
+   "realism": "noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.6,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.4,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.4
+    ],
+    [
+     "peg_c vs hole",
+     4.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.962,
+    1.002,
+    0.878,
+    0.826,
+    0.104,
+    0.051,
+    0.104
+   ]
+  },
+  {
+   "seed": 800019,
+   "success": true,
+   "time": 4.969999999988417,
+   "peak_force": 10.292173967550317,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    0.5,
+    -3.9
+   ],
+   "tip_vs_hole_mm": 1.5,
+   "realism": "noise",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 4.2,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     4.2
+    ],
+    [
+     "peg_c vs table",
+     4.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.938,
+    0.99,
+    0.891,
+    0.853,
+    0.104,
+    0.05,
+    0.102
+   ]
+  },
+  {
+   "seed": 800020,
+   "success": true,
+   "time": 4.939999999988487,
+   "peak_force": 10.626611407634504,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -7.4,
+    -0.1
+   ],
+   "tip_vs_hole_mm": 1.3,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.6,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 5.0,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.0
+    ],
+    [
+     "peg_c vs hole",
+     4.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.994,
+    1.041,
+    0.92,
+    0.847,
+    0.102,
+    0.054,
+    0.105
+   ]
+  },
+  {
+   "seed": 800021,
+   "success": true,
+   "time": 5.029999999988277,
+   "peak_force": 10.522449714028,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -2.2,
+    0.9
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.4,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.4
+    ],
+    [
+     "peg_c vs hole",
+     4.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.045,
+    0.051,
+    0.04,
+    0.037,
+    0.01,
+    0.009,
+    0.011
+   ]
+  },
+  {
+   "seed": 800022,
+   "success": true,
+   "time": 6.339999999985224,
+   "peak_force": 11.13381960792789,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -6.1,
+    3.8
+   ],
+   "tip_vs_hole_mm": 1.3,
+   "realism": "friction+noise",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 6.6,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     6.6
+    ],
+    [
+     "peg_c vs hole",
+     4.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.909,
+    1.01,
+    0.92,
+    0.869,
+    0.104,
+    0.051,
+    0.104
+   ]
+  },
+  {
+   "seed": 800023,
+   "success": true,
+   "time": 6.469999999984921,
+   "peak_force": 11.995020226527346,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.0,
+   "hole_off_mm": [
+    -7.5,
+    3.1
+   ],
+   "tip_vs_hole_mm": 1.1,
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.8,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.8
+    ],
+    [
+     "peg_c vs hole",
+     5.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.904,
+    0.971,
+    0.881,
+    0.836,
+    0.106,
+    0.054,
+    0.11
+   ]
+  },
+  {
+   "seed": 800024,
+   "success": true,
+   "time": 7.789999999981845,
+   "peak_force": 10.108433287467811,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 29.9,
+   "hole_off_mm": [
+    7.9,
+    -1.8
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+ripple",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 4.5,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     4.5
+    ],
+    [
+     "peg_c vs hole",
+     4.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.052,
+    0.068,
+    0.052,
+    0.059,
+    0.016,
+    0.017,
+    0.012
+   ]
+  },
+  {
+   "seed": 800025,
+   "success": true,
+   "time": 8.219999999980843,
+   "peak_force": 10.154257823255763,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 29.8,
+   "hole_off_mm": [
+    4.9,
+    7.2
+   ],
+   "tip_vs_hole_mm": 1.1,
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.4,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 5.2,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Lower the peg until it touches the plate",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     5.2
+    ],
+    [
+     "peg_c vs table",
+     5.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.906,
+    0.941,
+    0.877,
+    0.821,
+    0.109,
+    0.054,
+    0.107
+   ]
+  },
+  {
+   "seed": 800026,
+   "success": true,
+   "time": 4.98999999998837,
+   "peak_force": 10.557465284005767,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    0.5,
+    -5.1
+   ],
+   "tip_vs_hole_mm": 1.4,
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 3.1,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     3.1
+    ],
+    [
+     "peg_c vs hole",
+     2.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.038,
+    0.051,
+    0.039,
+    0.059,
+    0.007,
+    0.011,
+    0.01
+   ]
+  },
+  {
+   "seed": 800027,
+   "success": true,
+   "time": 7.489999999982544,
+   "peak_force": 10.45196116518762,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    0.7,
+    -7.7
+   ],
+   "tip_vs_hole_mm": 1.5,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 5.1,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.1
+    ],
+    [
+     "peg_c vs hole",
+     5.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.938,
+    0.99,
+    0.902,
+    0.827,
+    0.101,
+    0.05,
+    0.098
+   ]
+  },
+  {
+   "seed": 800028,
+   "success": true,
+   "time": 5.029999999988277,
+   "peak_force": 10.29833705751538,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    1.6,
+    6.2
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "ripple",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 5.3,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.3
+    ],
+    [
+     "peg_c vs hole",
+     4.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.04,
+    0.056,
+    0.051,
+    0.04,
+    0.007,
+    0.006,
+    0.008
+   ]
+  },
+  {
+   "seed": 800029,
+   "success": true,
+   "time": 4.969999999988417,
+   "peak_force": 10.223786821053084,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -0.3,
+    -2.1
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.9,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.9
+    ],
+    [
+     "peg_c vs hole",
+     3.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.011,
+    0.012,
+    0.003,
+    0.003,
+    0.001,
+    0.001,
+    0.001
+   ]
+  },
+  {
+   "seed": 800030,
+   "success": true,
+   "time": 7.3399999999828935,
+   "peak_force": 12.365793038477392,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    6.5,
+    4.8
+   ],
+   "tip_vs_hole_mm": 1.3,
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 7.9,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     7.9
+    ],
+    [
+     "peg_c vs table",
+     5.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.961,
+    0.996,
+    0.96,
+    0.891,
+    0.106,
+    0.057,
+    0.104
+   ]
+  },
+  {
+   "seed": 800031,
+   "success": true,
+   "time": 7.899999999981588,
+   "peak_force": 9.964667475758036,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.0,
+   "hole_off_mm": [
+    6.0,
+    -6.5
+   ],
+   "tip_vs_hole_mm": 0.8,
+   "realism": "ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.2,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.2
+    ],
+    [
+     "peg_c vs hole",
+     3.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.041,
+    0.045,
+    0.051,
+    0.041,
+    0.006,
+    0.007,
+    0.004
+   ]
+  },
+  {
+   "seed": 800032,
+   "success": true,
+   "time": 5.0199999999883005,
+   "peak_force": 10.379083160994435,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -3.5,
+    -0.0
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.8,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.8
+    ],
+    [
+     "peg_c vs hole",
+     4.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.041,
+    0.06,
+    0.037,
+    0.051,
+    0.013,
+    0.011,
+    0.018
+   ]
+  },
+  {
+   "seed": 800033,
+   "success": true,
+   "time": 6.479999999984898,
+   "peak_force": 12.164718044876004,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -6.8,
+    3.5
+   ],
+   "tip_vs_hole_mm": 1.2,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 7.1,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     7.1
+    ],
+    [
+     "peg_c vs hole",
+     4.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.871,
+    0.955,
+    0.906,
+    0.854,
+    0.1,
+    0.053,
+    0.109
+   ]
+  },
+  {
+   "seed": 800034,
+   "success": true,
+   "time": 8.4099999999804,
+   "peak_force": 10.345575144440856,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    8.0,
+    7.9
+   ],
+   "tip_vs_hole_mm": 1.3,
+   "realism": "clean",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 4.4,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     4.4
+    ],
+    [
+     "peg_c vs hole",
+     3.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800035,
+   "success": true,
+   "time": 4.939999999988487,
+   "peak_force": 10.198573745906412,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    3.5,
+    -5.3
+   ],
+   "tip_vs_hole_mm": 1.4,
+   "realism": "noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 6.2,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     6.2
+    ],
+    [
+     "peg_c vs table",
+     3.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.938,
+    1.003,
+    0.906,
+    0.847,
+    0.096,
+    0.052,
+    0.098
+   ]
+  },
+  {
+   "seed": 800036,
+   "success": true,
+   "time": 4.9199999999885335,
+   "peak_force": 11.152954704209362,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -1.8,
+    2.1
+   ],
+   "tip_vs_hole_mm": 1.5,
+   "realism": "friction+noise+latency",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 3.8,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     3.8
+    ],
+    [
+     "peg_c vs hole",
+     3.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.929,
+    0.982,
+    0.917,
+    0.851,
+    0.102,
+    0.051,
+    0.105
+   ]
+  },
+  {
+   "seed": 800037,
+   "success": true,
+   "time": 5.029999999988277,
+   "peak_force": 10.322396634770204,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -0.8,
+    6.3
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "latency",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 5.2,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.2
+    ],
+    [
+     "peg_c vs hole",
+     4.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.018,
+    0.018,
+    0.005,
+    0.006,
+    0.002,
+    0.002,
+    0.002
+   ]
+  },
+  {
+   "seed": 800038,
+   "success": true,
+   "time": 4.909999999988557,
+   "peak_force": 10.841200586302316,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -2.3,
+    -2.9
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.7,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.7
+    ],
+    [
+     "peg_c vs hole",
+     4.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.91,
+    0.978,
+    0.865,
+    0.835,
+    0.104,
+    0.051,
+    0.103
+   ]
+  },
+  {
+   "seed": 800039,
+   "success": true,
+   "time": 5.009999999988324,
+   "peak_force": 10.034748856908633,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -0.1,
+    3.6
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 5.8,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.8
+    ],
+    [
+     "peg_c vs hole",
+     5.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.043,
+    0.047,
+    0.045,
+    0.046,
+    0.005,
+    0.005,
+    0.008
+   ]
+  },
+  {
+   "seed": 800040,
+   "success": true,
+   "time": 4.83999999998872,
+   "peak_force": 11.936032487979778,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -0.9,
+    2.9
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 6.3,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     6.3
+    ],
+    [
+     "peg_c vs hole",
+     6.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.888,
+    0.932,
+    0.909,
+    0.85,
+    0.109,
+    0.052,
+    0.109
+   ]
+  },
+  {
+   "seed": 800041,
+   "success": true,
+   "time": 4.979999999988394,
+   "peak_force": 10.15315418130159,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -3.9,
+    -0.9
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 4.2,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     4.2
+    ],
+    [
+     "peg_c vs hole",
+     3.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.004,
+    0.004,
+    0.001,
+    0.001,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800042,
+   "success": true,
+   "time": 7.599999999982288,
+   "peak_force": 9.914732551324933,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 29.9,
+   "hole_off_mm": [
+    7.5,
+    -6.6
+   ],
+   "tip_vs_hole_mm": 1.4,
+   "realism": "friction+ripple+latency",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 3.9,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Spiral on the plate until the peg drops into the hole",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     3.9
+    ],
+    [
+     "peg_c vs table",
+     3.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.045,
+    0.054,
+    0.055,
+    0.049,
+    0.015,
+    0.02,
+    0.009
+   ]
+  },
+  {
+   "seed": 800043,
+   "success": true,
+   "time": 4.979999999988394,
+   "peak_force": 9.879827046461605,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    4.4,
+    5.1
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "noise+latency",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Push the peg to the bottom'",
+   "peak_contact_N": 8.1,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     8.1
+    ],
+    [
+     "peg_c vs table",
+     5.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.905,
+    0.99,
+    0.913,
+    0.853,
+    0.105,
+    0.05,
+    0.104
+   ]
+  },
+  {
+   "seed": 800044,
+   "success": true,
+   "time": 5.029999999988277,
+   "peak_force": 11.33565527514599,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -0.7,
+    -3.1
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.3,
+   "peak_pair": "peg_c vs table",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs table",
+     5.3
+    ],
+    [
+     "peg_c vs hole",
+     3.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.015,
+    0.045,
+    0.021,
+    0.016,
+    0.013,
+    0.008,
+    0.008
+   ]
+  },
+  {
+   "seed": 800045,
+   "success": true,
+   "time": 8.919999999979211,
+   "peak_force": 12.321679599961735,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 29.8,
+   "hole_off_mm": [
+    -3.7,
+    -5.2
+   ],
+   "tip_vs_hole_mm": 1.2,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.6,
+   "joint_margin_at": "joint 3 during 'Mistake (push: stuck on the rim): try a fix learned from experience'",
+   "peak_contact_N": 6.9,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Mistake (push: stuck on the rim): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     6.9
+    ],
+    [
+     "peg_c vs table",
+     3.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.909,
+    0.977,
+    0.925,
+    0.855,
+    0.105,
+    0.052,
+    0.099
+   ]
+  },
+  {
+   "seed": 800046,
+   "success": true,
+   "time": 5.009999999988324,
+   "peak_force": 10.33397946092562,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    4.7,
+    -2.6
+   ],
+   "tip_vs_hole_mm": 1.4,
+   "realism": "friction+noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.5,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     5.5
+    ],
+    [
+     "peg_c vs table",
+     5.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.931,
+    1.018,
+    0.88,
+    0.857,
+    0.101,
+    0.053,
+    0.101
+   ]
+  },
+  {
+   "seed": 800047,
+   "success": true,
+   "time": 4.949999999988464,
+   "peak_force": 11.39361488348146,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -3.6,
+    1.9
+   ],
+   "tip_vs_hole_mm": 1.6,
+   "realism": "friction+noise+ripple",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 6.2,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Push the peg to the bottom",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     6.2
+    ],
+    [
+     "peg_c vs table",
+     4.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.932,
+    1.009,
+    0.898,
+    0.864,
+    0.104,
+    0.052,
+    0.102
+   ]
+  },
+  {
+   "seed": 800048,
+   "success": true,
+   "time": 4.92999999998851,
+   "peak_force": 11.807642115936375,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.1,
+   "hole_off_mm": [
+    -4.1,
+    -1.9
+   ],
+   "tip_vs_hole_mm": 1.5,
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 14.0,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 4.9,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Lower the peg until it touches the plate",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     4.9
+    ],
+    [
+     "peg_c vs table",
+     4.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.946,
+    1.012,
+    0.925,
+    0.875,
+    0.115,
+    0.051,
+    0.109
+   ]
+  },
+  {
+   "seed": 800049,
+   "success": true,
+   "time": 7.7999999999818215,
+   "peak_force": 9.142095221846738,
+   "touches": 1,
+   "reflexes": 0,
+   "stage": "done",
+   "depth_mm": 30.0,
+   "hole_off_mm": [
+    7.1,
+    -4.4
+   ],
+   "tip_vs_hole_mm": 0.8,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Lower the peg until it touches the plate'",
+   "peak_contact_N": 5.5,
+   "peak_pair": "peg_c vs hole",
+   "peak_step": "Lower the peg until it touches the plate",
+   "top_pairs": [
+    [
+     "peg_c vs hole",
+     5.5
+    ],
+    [
+     "peg_c vs table",
+     3.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.902,
+    0.966,
+    0.893,
+    0.824,
+    0.106,
+    0.051,
+    0.11
+   ]
+  }
+ ]
+}
