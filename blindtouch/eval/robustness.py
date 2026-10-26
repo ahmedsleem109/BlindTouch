@@ -36,6 +36,11 @@ VARIANTS = {
         "friction": ({"board_mu": (0.2, 0.6), "felt_mu": (0.3, 0.7)}, 0.5, "board 0.2-0.6, felt 0.3-0.7"),
         "all effects": ({}, 1.0, "all five motor/model imperfections at once"),
     },
+    "peg": {
+        "tuned": ({}, 0.5, "hole within +-8 mm of where the robot expects it"),
+        "position x2": ({"pos": 0.016}, 0.5, "hole within +-16 mm (the spiral reaches 16 mm)"),
+        "all effects": ({}, 1.0, "all five motor/model imperfections at once"),
+    },
     "cans": {
         "tuned": ({}, 0.5, "cans placed +-3 mm, friction 0.4-0.7"),
         "placement x3": ({"jitter": 0.010}, 0.5, "cans placed +-10 mm off their spots"),
