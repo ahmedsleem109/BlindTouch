@@ -1,0 +1,2717 @@
+{
+ "job": "cans",
+ "title": "Which cans are still full?",
+ "summary": {
+  "n": 50,
+  "success": 0.9,
+  "ci95": [
+   0.7863950966521162,
+   0.956524876008429
+  ],
+  "time_s": 79.1122222222039,
+  "peak_force_N_median": 15.718150849476768,
+  "touches_mean": 3.0
+ },
+ "raw": [
+  {
+   "seed": 800000,
+   "success": true,
+   "time": 80.98999999999064,
+   "peak_force": 19.876546931274554,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    7.4,
+    2.6,
+    5.3
+   ],
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.4,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 33.9,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     33.9
+    ],
+    [
+     "finger vs can2",
+     19.1
+    ],
+    [
+     "finger vs can1",
+     19.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.011,
+    0.046,
+    0.018,
+    0.027,
+    0.005,
+    0.011,
+    0.01
+   ]
+  },
+  {
+   "seed": 800001,
+   "success": true,
+   "time": 77.61999999997455,
+   "peak_force": 12.397105619950029,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.1,
+    0.4,
+    0.5
+   ],
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 26.9,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     26.9
+    ],
+    [
+     "finger vs can0",
+     24.1
+    ],
+    [
+     "finger vs can1",
+     20.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.0,
+    0.002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800002,
+   "success": true,
+   "time": 76.95999999997133,
+   "peak_force": 12.371261774835906,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.9,
+    5.2,
+    1.3
+   ],
+   "realism": "ripple",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 18.7,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     18.7
+    ],
+    [
+     "finger vs can2",
+     18.1
+    ],
+    [
+     "finger vs can1",
+     17.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.042,
+    0.051,
+    0.036,
+    0.047,
+    0.007,
+    0.008,
+    0.007
+   ]
+  },
+  {
+   "seed": 800003,
+   "success": true,
+   "time": 80.3599999999877,
+   "peak_force": 21.95551046615704,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    1.8,
+    9.1,
+    2.0
+   ],
+   "realism": "friction+latency",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 73.5,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     73.5
+    ],
+    [
+     "finger vs can1",
+     19.6
+    ],
+    [
+     "finger vs can0",
+     18.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.008,
+    0.032,
+    0.02,
+    0.011,
+    0.014,
+    0.009,
+    0.013
+   ]
+  },
+  {
+   "seed": 800004,
+   "success": true,
+   "time": 78.36999999997813,
+   "peak_force": 13.420185034539639,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    3.5,
+    11.7,
+    13.2
+   ],
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 39.5,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     39.5
+    ],
+    [
+     "finger vs can1",
+     24.0
+    ],
+    [
+     "finger vs can0",
+     22.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.558,
+    0.787,
+    0.824,
+    0.785,
+    0.086,
+    0.051,
+    0.082
+   ]
+  },
+  {
+   "seed": 800005,
+   "success": true,
+   "time": 76.56999999996961,
+   "peak_force": 12.999336433062908,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    2.6,
+    0.9,
+    10.6
+   ],
+   "realism": "noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 26.7,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     26.7
+    ],
+    [
+     "finger vs can2",
+     21.8
+    ],
+    [
+     "finger vs can0",
+     18.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.57,
+    0.818,
+    0.878,
+    0.829,
+    0.092,
+    0.052,
+    0.083
+   ]
+  },
+  {
+   "seed": 800006,
+   "success": true,
+   "time": 80.47999999998828,
+   "peak_force": 15.554005522887067,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    5.7,
+    11.3,
+    12.3
+   ],
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.4,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 21.3,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     21.3
+    ],
+    [
+     "finger vs can2",
+     20.9
+    ],
+    [
+     "finger vs can1",
+     17.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.568,
+    0.821,
+    0.89,
+    0.844,
+    0.078,
+    0.057,
+    0.076
+   ]
+  },
+  {
+   "seed": 800007,
+   "success": true,
+   "time": 82.02999999999568,
+   "peak_force": 14.959255122469244,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    4.5,
+    0.4,
+    0.0
+   ],
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.3,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 22.2,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     22.2
+    ],
+    [
+     "finger vs can0",
+     20.6
+    ],
+    [
+     "finger vs can1",
+     18.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.563,
+    0.82,
+    0.889,
+    0.832,
+    0.092,
+    0.052,
+    0.089
+   ]
+  },
+  {
+   "seed": 800008,
+   "success": true,
+   "time": 82.17999999999626,
+   "peak_force": 21.481478022776844,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    2.2,
+    5.1,
+    9.0
+   ],
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.4,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 103.0,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     103.0
+    ],
+    [
+     "hand vs can0",
+     25.8
+    ],
+    [
+     "finger vs can1",
+     23.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.05,
+    0.054,
+    0.041,
+    0.049,
+    0.014,
+    0.007,
+    0.017
+   ]
+  },
+  {
+   "seed": 800009,
+   "success": true,
+   "time": 79.60999999998398,
+   "peak_force": 12.477163535903605,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    3.5,
+    3.8,
+    11.4
+   ],
+   "realism": "ripple+latency",
+   "task_ok": true,
+   "joint_margin_deg": 0.4,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 23.2,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     23.2
+    ],
+    [
+     "finger vs can1",
+     21.5
+    ],
+    [
+     "finger vs can2",
+     17.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.039,
+    0.044,
+    0.031,
+    0.038,
+    0.006,
+    0.006,
+    0.007
+   ]
+  },
+  {
+   "seed": 800010,
+   "success": true,
+   "time": 80.52999999998845,
+   "peak_force": 16.59158084241115,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.5,
+    1.3,
+    3.1
+   ],
+   "realism": "friction",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 53.8,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     53.8
+    ],
+    [
+     "finger vs can2",
+     24.0
+    ],
+    [
+     "finger vs can1",
+     18.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.033,
+    0.049,
+    0.019,
+    0.014,
+    0.016,
+    0.012,
+    0.009
+   ]
+  },
+  {
+   "seed": 800011,
+   "success": true,
+   "time": 80.65999999998914,
+   "peak_force": 18.133336141407725,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    1.0,
+    5.9,
+    3.5
+   ],
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 88.5,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     88.5
+    ],
+    [
+     "finger vs can0",
+     24.0
+    ],
+    [
+     "finger vs can1",
+     20.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.019,
+    0.033,
+    0.032,
+    0.021,
+    0.006,
+    0.01,
+    0.012
+   ]
+  },
+  {
+   "seed": 800012,
+   "success": true,
+   "time": 79.9699999999857,
+   "peak_force": 19.723027350194435,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.0,
+    0.2,
+    6.9
+   ],
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 106.7,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     106.7
+    ],
+    [
+     "finger vs can2",
+     27.4
+    ],
+    [
+     "finger vs can0",
+     21.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.003,
+    0.004,
+    0.001,
+    0.001,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800013,
+   "success": true,
+   "time": 77.56999999997417,
+   "peak_force": 12.596256495944525,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    3.9,
+    1.3,
+    20.8
+   ],
+   "realism": "ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 24.3,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     24.3
+    ],
+    [
+     "finger vs can0",
+     23.0
+    ],
+    [
+     "finger vs can2",
+     18.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.048,
+    0.052,
+    0.053,
+    0.035,
+    0.006,
+    0.006,
+    0.005
+   ]
+  },
+  {
+   "seed": 800014,
+   "success": true,
+   "time": 80.37999999998745,
+   "peak_force": 13.264009632936963,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.6,
+    2.9,
+    1.1
+   ],
+   "realism": "noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 26.4,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     26.4
+    ],
+    [
+     "finger vs can0",
+     18.9
+    ],
+    [
+     "finger vs can1",
+     18.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.538,
+    0.762,
+    0.811,
+    0.79,
+    0.084,
+    0.05,
+    0.079
+   ]
+  },
+  {
+   "seed": 800015,
+   "success": true,
+   "time": 75.76999999996565,
+   "peak_force": 12.657546435162498,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.4,
+    0.9,
+    12.3
+   ],
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.6,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 40.3,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     40.3
+    ],
+    [
+     "finger vs can2",
+     25.4
+    ],
+    [
+     "finger vs can1",
+     20.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.001,
+    0.002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800016,
+   "success": false,
+   "time": 79.17999999998207,
+   "peak_force": 26.311481225983165,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    2.0,
+    6.8,
+    6.5
+   ],
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 96.8,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     96.8
+    ],
+    [
+     "finger vs can1",
+     66.8
+    ],
+    [
+     "hand vs can0",
+     28.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.011,
+    0.043,
+    0.026,
+    0.019,
+    0.004,
+    0.007,
+    0.015
+   ]
+  },
+  {
+   "seed": 800017,
+   "success": true,
+   "time": 82.18999999999645,
+   "peak_force": 15.328999887948727,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    10.6,
+    9.1,
+    7.1
+   ],
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.4,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 40.3,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     40.3
+    ],
+    [
+     "finger vs can0",
+     24.3
+    ],
+    [
+     "finger vs can2",
+     22.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.553,
+    0.801,
+    0.87,
+    0.832,
+    0.082,
+    0.051,
+    0.08
+   ]
+  },
+  {
+   "seed": 800018,
+   "success": true,
+   "time": 77.16999999997255,
+   "peak_force": 21.05086857204083,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.2,
+    11.2,
+    17.3
+   ],
+   "realism": "noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 42.5,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     42.5
+    ],
+    [
+     "finger vs can1",
+     40.3
+    ],
+    [
+     "finger vs can2",
+     26.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.564,
+    0.812,
+    0.822,
+    0.792,
+    0.083,
+    0.051,
+    0.078
+   ]
+  },
+  {
+   "seed": 800019,
+   "success": true,
+   "time": 75.89999999996634,
+   "peak_force": 12.780535821223335,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    3.3,
+    0.9,
+    13.3
+   ],
+   "realism": "noise",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 60.6,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     60.6
+    ],
+    [
+     "finger vs can0",
+     18.6
+    ],
+    [
+     "finger vs can2",
+     18.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.553,
+    0.799,
+    0.841,
+    0.814,
+    0.083,
+    0.05,
+    0.077
+   ]
+  },
+  {
+   "seed": 800020,
+   "success": true,
+   "time": 77.76999999997527,
+   "peak_force": 14.132082141204082,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    31.4,
+    7.8,
+    10.0
+   ],
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.1,
+   "joint_margin_at": "joint 7 during 'It weighs 353 g: full. Carry it to the fridge tray'",
+   "peak_contact_N": 20.8,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     20.8
+    ],
+    [
+     "finger vs can1",
+     19.0
+    ],
+    [
+     "finger vs can2",
+     18.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.594,
+    0.843,
+    0.866,
+    0.812,
+    0.081,
+    0.054,
+    0.079
+   ]
+  },
+  {
+   "seed": 800021,
+   "success": false,
+   "time": 82.52999999999821,
+   "peak_force": 29.0256157138307,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.2,
+    3.3,
+    10.9
+   ],
+   "realism": "friction+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.4,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 133.7,
+   "peak_pair": "finger vs can0",
+   "peak_step": "It weighs 343 g: full. Carry it to the fridge tray",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     133.7
+    ],
+    [
+     "finger vs can1",
+     74.9
+    ],
+    [
+     "hand vs can0",
+     63.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.049,
+    0.05,
+    0.039,
+    0.039,
+    0.011,
+    0.009,
+    0.011
+   ]
+  },
+  {
+   "seed": 800022,
+   "success": true,
+   "time": 80.31999999998752,
+   "peak_force": 15.703700790056304,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    2.2,
+    2.1,
+    1.0
+   ],
+   "realism": "friction+noise",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 22.3,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     22.3
+    ],
+    [
+     "finger vs can1",
+     21.5
+    ],
+    [
+     "finger vs can2",
+     17.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.53,
+    0.813,
+    0.872,
+    0.833,
+    0.085,
+    0.052,
+    0.079
+   ]
+  },
+  {
+   "seed": 800023,
+   "success": false,
+   "time": 82.42000000000358,
+   "peak_force": 16.74589612150618,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    false,
+    false
+   ],
+   "classified": [
+    1,
+    1,
+    0
+   ],
+   "mass_err_g": [
+    7.2,
+    0.4,
+    193.6
+   ],
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 0.2,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 62.6,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Reach over can 3",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     62.6
+    ],
+    [
+     "hand vs can1",
+     28.4
+    ],
+    [
+     "finger vs can0",
+     18.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.544,
+    0.804,
+    0.839,
+    0.794,
+    0.086,
+    0.054,
+    0.086
+   ]
+  },
+  {
+   "seed": 800024,
+   "success": true,
+   "time": 80.81999999999026,
+   "peak_force": 22.96106069026447,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    24.1,
+    17.1,
+    39.3
+   ],
+   "realism": "friction+ripple",
+   "task_ok": true,
+   "joint_margin_deg": 1.2,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 77.9,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     77.9
+    ],
+    [
+     "finger vs can0",
+     18.9
+    ],
+    [
+     "finger vs can2",
+     18.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.05,
+    0.074,
+    0.054,
+    0.059,
+    0.016,
+    0.018,
+    0.013
+   ]
+  },
+  {
+   "seed": 800025,
+   "success": true,
+   "time": 81.38999999999241,
+   "peak_force": 20.63785182258425,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    1.0,
+    25.3,
+    10.1
+   ],
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 39.9,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     39.9
+    ],
+    [
+     "finger vs can1",
+     25.6
+    ],
+    [
+     "finger vs can2",
+     24.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.532,
+    0.747,
+    0.831,
+    0.796,
+    0.087,
+    0.054,
+    0.083
+   ]
+  },
+  {
+   "seed": 800026,
+   "success": true,
+   "time": 80.27999999998725,
+   "peak_force": 21.613710962158198,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    4.6,
+    15.3,
+    9.4
+   ],
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.4,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 72.9,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     72.9
+    ],
+    [
+     "finger vs can1",
+     33.7
+    ],
+    [
+     "finger vs can0",
+     20.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.038,
+    0.051,
+    0.04,
+    0.062,
+    0.007,
+    0.012,
+    0.01
+   ]
+  },
+  {
+   "seed": 800027,
+   "success": true,
+   "time": 77.25999999997262,
+   "peak_force": 12.025282546740915,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    3.8,
+    8.1,
+    14.9
+   ],
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.6,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 21.9,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     21.9
+    ],
+    [
+     "finger vs can0",
+     21.0
+    ],
+    [
+     "finger vs can2",
+     18.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.558,
+    0.799,
+    0.844,
+    0.788,
+    0.081,
+    0.049,
+    0.073
+   ]
+  },
+  {
+   "seed": 800028,
+   "success": true,
+   "time": 76.93999999997123,
+   "peak_force": 22.38173953252152,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    5.5,
+    1.9,
+    3.5
+   ],
+   "realism": "ripple",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 80.1,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     80.1
+    ],
+    [
+     "finger vs can0",
+     41.4
+    ],
+    [
+     "finger vs can1",
+     19.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.04,
+    0.056,
+    0.051,
+    0.044,
+    0.007,
+    0.007,
+    0.008
+   ]
+  },
+  {
+   "seed": 800029,
+   "success": true,
+   "time": 79.39999999998298,
+   "peak_force": 20.44534803383319,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.7,
+    0.4,
+    19.4
+   ],
+   "realism": "latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 34.0,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     34.0
+    ],
+    [
+     "finger vs can0",
+     23.1
+    ],
+    [
+     "finger vs can2",
+     20.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.009,
+    0.012,
+    0.003,
+    0.003,
+    0.001,
+    0.001,
+    0.001
+   ]
+  },
+  {
+   "seed": 800030,
+   "success": false,
+   "time": 80.04999999998623,
+   "peak_force": 27.583243070556982,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    5.6,
+    0.4,
+    19.3
+   ],
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 91.2,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     91.2
+    ],
+    [
+     "finger vs can1",
+     83.3
+    ],
+    [
+     "finger vs can2",
+     42.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.557,
+    0.798,
+    0.903,
+    0.852,
+    0.085,
+    0.057,
+    0.08
+   ]
+  },
+  {
+   "seed": 800031,
+   "success": true,
+   "time": 76.90999999997123,
+   "peak_force": 12.839448211643273,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    1.1,
+    2.4,
+    1.7
+   ],
+   "realism": "ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 36.8,
+   "peak_pair": "finger vs can1",
+   "peak_step": "It weighs 176 g: half full. Carry it to the sink",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     36.8
+    ],
+    [
+     "finger vs can2",
+     18.9
+    ],
+    [
+     "finger vs can0",
+     17.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.038,
+    0.048,
+    0.05,
+    0.042,
+    0.006,
+    0.007,
+    0.004
+   ]
+  },
+  {
+   "seed": 800032,
+   "success": true,
+   "time": 80.87999999999019,
+   "peak_force": 20.637643844108215,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    22.0,
+    41.3,
+    14.4
+   ],
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.6,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 33.0,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     33.0
+    ],
+    [
+     "finger vs can2",
+     24.1
+    ],
+    [
+     "finger vs can1",
+     17.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.04,
+    0.065,
+    0.037,
+    0.051,
+    0.014,
+    0.012,
+    0.018
+   ]
+  },
+  {
+   "seed": 800033,
+   "success": true,
+   "time": 80.62999999998893,
+   "peak_force": 23.265113414568944,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    1.8,
+    23.4,
+    17.4
+   ],
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 36.5,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     36.5
+    ],
+    [
+     "finger vs can2",
+     22.5
+    ],
+    [
+     "finger vs can0",
+     21.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.508,
+    0.769,
+    0.86,
+    0.819,
+    0.08,
+    0.054,
+    0.084
+   ]
+  },
+  {
+   "seed": 800034,
+   "success": true,
+   "time": 76.0799999999672,
+   "peak_force": 12.478389586759304,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.0,
+    0.0,
+    3.5
+   ],
+   "realism": "clean",
+   "task_ok": true,
+   "joint_margin_deg": 0.6,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 30.0,
+   "peak_pair": "finger vs can2",
+   "peak_step": "It weighs 174 g: half full. Carry it to the sink",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     30.0
+    ],
+    [
+     "finger vs can1",
+     20.4
+    ],
+    [
+     "finger vs can0",
+     19.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800035,
+   "success": true,
+   "time": 75.69999999996531,
+   "peak_force": 14.447920153885718,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    2.5,
+    0.9,
+    26.9
+   ],
+   "realism": "noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 22.9,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     22.9
+    ],
+    [
+     "finger vs can2",
+     21.4
+    ],
+    [
+     "finger vs can0",
+     20.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.538,
+    0.818,
+    0.853,
+    0.805,
+    0.076,
+    0.051,
+    0.075
+   ]
+  },
+  {
+   "seed": 800036,
+   "success": true,
+   "time": 80.35999999998764,
+   "peak_force": 18.996089655932394,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    6.6,
+    6.4,
+    15.1
+   ],
+   "realism": "friction+noise+latency",
+   "task_ok": true,
+   "joint_margin_deg": 0.3,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 98.9,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     98.9
+    ],
+    [
+     "hand vs can0",
+     39.7
+    ],
+    [
+     "finger vs can2",
+     25.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.543,
+    0.791,
+    0.865,
+    0.814,
+    0.081,
+    0.052,
+    0.08
+   ]
+  },
+  {
+   "seed": 800037,
+   "success": true,
+   "time": 75.99999999996668,
+   "peak_force": 12.467739099003406,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.2,
+    0.0,
+    16.1
+   ],
+   "realism": "latency",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 34.4,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     34.4
+    ],
+    [
+     "finger vs can0",
+     18.9
+    ],
+    [
+     "finger vs can2",
+     16.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.022,
+    0.018,
+    0.006,
+    0.006,
+    0.002,
+    0.002,
+    0.002
+   ]
+  },
+  {
+   "seed": 800038,
+   "success": true,
+   "time": 82.54999999999838,
+   "peak_force": 13.748275844918231,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    6.3,
+    13.5,
+    6.5
+   ],
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.4,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 26.6,
+   "peak_pair": "finger vs can2",
+   "peak_step": "It weighs 172 g: half full. Carry it to the sink",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     26.6
+    ],
+    [
+     "finger vs can0",
+     23.2
+    ],
+    [
+     "finger vs can1",
+     20.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.528,
+    0.78,
+    0.816,
+    0.79,
+    0.083,
+    0.051,
+    0.078
+   ]
+  },
+  {
+   "seed": 800039,
+   "success": true,
+   "time": 77.98999999997625,
+   "peak_force": 12.734641910777514,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    8.1,
+    2.7,
+    6.4
+   ],
+   "realism": "ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.6,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 41.4,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     41.4
+    ],
+    [
+     "finger vs can1",
+     39.7
+    ],
+    [
+     "finger vs can0",
+     19.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.043,
+    0.047,
+    0.044,
+    0.046,
+    0.005,
+    0.005,
+    0.007
+   ]
+  },
+  {
+   "seed": 800040,
+   "success": true,
+   "time": 79.85999999998525,
+   "peak_force": 15.05760911867457,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    3.6,
+    9.8,
+    4.2
+   ],
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.4,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 26.8,
+   "peak_pair": "finger vs can1",
+   "peak_step": "It weighs 333 g: full. Carry it to the fridge tray",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     26.8
+    ],
+    [
+     "finger vs can0",
+     20.8
+    ],
+    [
+     "finger vs can2",
+     16.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.532,
+    0.75,
+    0.864,
+    0.82,
+    0.087,
+    0.052,
+    0.084
+   ]
+  },
+  {
+   "seed": 800041,
+   "success": true,
+   "time": 79.9699999999857,
+   "peak_force": 17.179803250669284,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    1.7,
+    0.7,
+    2.8
+   ],
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 83.6,
+   "peak_pair": "finger vs can1",
+   "peak_step": "It weighs 14 g: empty. Carry it to the recycling",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     83.6
+    ],
+    [
+     "finger vs can0",
+     21.5
+    ],
+    [
+     "finger vs can2",
+     21.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.002,
+    0.003,
+    0.001,
+    0.001,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800042,
+   "success": true,
+   "time": 79.85999999998518,
+   "peak_force": 17.42674228208599,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    6.0,
+    2.2,
+    0.0
+   ],
+   "realism": "friction+ripple+latency",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 75.4,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     75.4
+    ],
+    [
+     "finger vs can2",
+     27.5
+    ],
+    [
+     "finger vs can0",
+     20.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.042,
+    0.053,
+    0.054,
+    0.05,
+    0.016,
+    0.019,
+    0.009
+   ]
+  },
+  {
+   "seed": 800043,
+   "success": true,
+   "time": 77.00999999997157,
+   "peak_force": 13.72410942735781,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    0.8,
+    16.8,
+    23.2
+   ],
+   "realism": "noise+latency",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 26.7,
+   "peak_pair": "finger vs can1",
+   "peak_step": "It weighs 326 g: full. Carry it to the fridge tray",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     26.7
+    ],
+    [
+     "finger vs can2",
+     21.7
+    ],
+    [
+     "finger vs can0",
+     17.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.527,
+    0.796,
+    0.859,
+    0.816,
+    0.083,
+    0.051,
+    0.078
+   ]
+  },
+  {
+   "seed": 800044,
+   "success": true,
+   "time": 79.33999999998291,
+   "peak_force": 18.767320147009976,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    2.1,
+    9.2,
+    3.6
+   ],
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.5,
+   "joint_margin_at": "joint 7 during 'Reach over can 3'",
+   "peak_contact_N": 75.4,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Set it down gently: feel the table take the weight",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     75.4
+    ],
+    [
+     "hand vs can1",
+     40.3
+    ],
+    [
+     "finger vs can0",
+     26.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.013,
+    0.044,
+    0.022,
+    0.016,
+    0.013,
+    0.008,
+    0.008
+   ]
+  },
+  {
+   "seed": 800045,
+   "success": true,
+   "time": 79.02999999998129,
+   "peak_force": 15.732600908897231,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    7.6,
+    0.4,
+    11.8
+   ],
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.3,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 60.1,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     60.1
+    ],
+    [
+     "finger vs can0",
+     20.3
+    ],
+    [
+     "finger vs can1",
+     19.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.521,
+    0.78,
+    0.869,
+    0.812,
+    0.083,
+    0.052,
+    0.076
+   ]
+  },
+  {
+   "seed": 800046,
+   "success": true,
+   "time": 82.19999999999642,
+   "peak_force": 15.163045690325356,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    67.3,
+    0.9,
+    7.1
+   ],
+   "realism": "friction+noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 0.4,
+   "joint_margin_at": "joint 7 during 'Reach over can 2'",
+   "peak_contact_N": 55.0,
+   "peak_pair": "finger vs can0",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     55.0
+    ],
+    [
+     "finger vs can1",
+     29.1
+    ],
+    [
+     "finger vs can2",
+     26.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.54,
+    0.818,
+    0.821,
+    0.818,
+    0.08,
+    0.053,
+    0.077
+   ]
+  },
+  {
+   "seed": 800047,
+   "success": false,
+   "time": 82.03999999999573,
+   "peak_force": 21.50019358589082,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    false,
+    true
+   ],
+   "classified": [
+    1,
+    0,
+    1
+   ],
+   "mass_err_g": [
+    11.1,
+    303.3,
+    16.5
+   ],
+   "realism": "friction+noise+ripple",
+   "task_ok": false,
+   "joint_margin_deg": 2.2,
+   "joint_margin_at": "joint 7 during 'It weighs 195 g: half full. Carry it to the sink'",
+   "peak_contact_N": 24.8,
+   "peak_pair": "finger vs can0",
+   "peak_step": "It weighs 40 g: empty. Carry it to the recycling",
+   "top_pairs": [
+    [
+     "finger vs can0",
+     24.8
+    ],
+    [
+     "hand vs can0",
+     22.2
+    ],
+    [
+     "finger vs can2",
+     21.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.543,
+    0.813,
+    0.848,
+    0.825,
+    0.083,
+    0.052,
+    0.079
+   ]
+  },
+  {
+   "seed": 800048,
+   "success": true,
+   "time": 79.31999999998274,
+   "peak_force": 15.629642735299463,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    3.2,
+    19.7,
+    6.6
+   ],
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.4,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 20.1,
+   "peak_pair": "finger vs can1",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can1",
+     20.1
+    ],
+    [
+     "finger vs can2",
+     18.7
+    ],
+    [
+     "finger vs can0",
+     18.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.546,
+    0.808,
+    0.874,
+    0.838,
+    0.091,
+    0.051,
+    0.083
+   ]
+  },
+  {
+   "seed": 800049,
+   "success": true,
+   "time": 76.86999999997083,
+   "peak_force": 16.5457849493766,
+   "touches": 3,
+   "reflexes": 0,
+   "placed": [
+    true,
+    true,
+    true
+   ],
+   "classified": [
+    1,
+    1,
+    1
+   ],
+   "mass_err_g": [
+    6.4,
+    0.2,
+    1.0
+   ],
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 1.4,
+   "joint_margin_at": "joint 7 during 'Set it down gently: feel the table take the weight'",
+   "peak_contact_N": 24.1,
+   "peak_pair": "finger vs can2",
+   "peak_step": "Grip the can, lift and weigh",
+   "top_pairs": [
+    [
+     "finger vs can2",
+     24.1
+    ],
+    [
+     "finger vs can0",
+     23.2
+    ],
+    [
+     "finger vs can1",
+     19.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.526,
+    0.774,
+    0.841,
+    0.779,
+    0.085,
+    0.051,
+    0.083
+   ]
+  }
+ ]
+}

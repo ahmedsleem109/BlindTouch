@@ -1,0 +1,1817 @@
+{
+ "job": "whiteboard",
+ "title": "Erase a sloped whiteboard",
+ "summary": {
+  "n": 50,
+  "success": 0.9,
+  "ci95": [
+   0.7863950966521162,
+   0.956524876008429
+  ],
+  "time_s": 43.95044444434201,
+  "peak_force_N_median": 13.618590236967407,
+  "touches_mean": 4.0
+ },
+ "raw": [
+  {
+   "seed": 800000,
+   "success": true,
+   "time": 48.109999999887876,
+   "peak_force": 13.13845230925557,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.3766670925144158,
+   "wiped": 1.0,
+   "normal_err_deg": 0.14996463614447716,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.658435926013832,
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.7,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.7
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.015,
+    0.046,
+    0.018,
+    0.027,
+    0.005,
+    0.011,
+    0.012
+   ]
+  },
+  {
+   "seed": 800001,
+   "success": true,
+   "time": 44.39999999989652,
+   "peak_force": 14.128368264468117,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.587149273926801,
+   "wiped": 1.0,
+   "normal_err_deg": 0.12182302355523347,
+   "contact_frac": 1.0,
+   "tilt_deg": 15.620717061339144,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.5,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.5
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.001,
+    0.002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800002,
+   "success": true,
+   "time": 42.27999999990146,
+   "peak_force": 16.904414141992667,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.8233781545750759,
+   "wiped": 1.0,
+   "normal_err_deg": 0.06564849377859484,
+   "contact_frac": 1.0,
+   "tilt_deg": 16.721947556700407,
+   "realism": "ripple",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 9.8,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     9.8
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.043,
+    0.051,
+    0.033,
+    0.046,
+    0.007,
+    0.008,
+    0.007
+   ]
+  },
+  {
+   "seed": 800003,
+   "success": true,
+   "time": 43.089999999899575,
+   "peak_force": 12.949311080984122,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.25465949227373,
+   "wiped": 1.0,
+   "normal_err_deg": 0.3596557917258822,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.010322881207612,
+   "realism": "friction+latency",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 12.0,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     12.0
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.012,
+    0.032,
+    0.019,
+    0.011,
+    0.014,
+    0.009,
+    0.015
+   ]
+  },
+  {
+   "seed": 800004,
+   "success": true,
+   "time": 43.699999999898154,
+   "peak_force": 21.516717355141413,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.8273167204728117,
+   "wiped": 1.0,
+   "normal_err_deg": 0.15550798513366448,
+   "contact_frac": 1.0,
+   "tilt_deg": 16.15227238621649,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.5,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.5
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.848,
+    0.893,
+    0.862,
+    0.804,
+    0.099,
+    0.05,
+    0.091
+   ]
+  },
+  {
+   "seed": 800005,
+   "success": true,
+   "time": 41.03999999990435,
+   "peak_force": 13.374894308508884,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.8876916936776942,
+   "wiped": 1.0,
+   "normal_err_deg": 0.12647474533245814,
+   "contact_frac": 1.0,
+   "tilt_deg": 16.976641671734054,
+   "realism": "noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.2,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.2
+    ]
+   ],
+   "calib_s": 67.3,
+   "ripple_rms_after_Nm": [
+    0.867,
+    0.926,
+    0.917,
+    0.841,
+    0.107,
+    0.05,
+    0.091
+   ]
+  },
+  {
+   "seed": 800006,
+   "success": true,
+   "time": 45.36999999989426,
+   "peak_force": 12.844645282697432,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.9036474592293484,
+   "wiped": 1.0,
+   "normal_err_deg": 0.5002147252154959,
+   "contact_frac": 1.0,
+   "tilt_deg": 18.17384445829578,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 10.9,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 13.8,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     13.8
+    ]
+   ],
+   "calib_s": 67.3,
+   "ripple_rms_after_Nm": [
+    0.88,
+    0.932,
+    0.934,
+    0.858,
+    0.092,
+    0.055,
+    0.087
+   ]
+  },
+  {
+   "seed": 800007,
+   "success": true,
+   "time": 42.029999999902046,
+   "peak_force": 10.80243419867699,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.7962801177813883,
+   "wiped": 1.0,
+   "normal_err_deg": 0.07477548399090968,
+   "contact_frac": 1.0,
+   "tilt_deg": 11.553567052701878,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 10.9,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.3,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.3
+    ]
+   ],
+   "calib_s": 67.0,
+   "ripple_rms_after_Nm": [
+    0.871,
+    0.926,
+    0.924,
+    0.843,
+    0.107,
+    0.05,
+    0.099
+   ]
+  },
+  {
+   "seed": 800008,
+   "success": true,
+   "time": 42.24999999990153,
+   "peak_force": 15.935773400802907,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.492105514760221,
+   "wiped": 1.0,
+   "normal_err_deg": 0.047743046253035375,
+   "contact_frac": 1.0,
+   "tilt_deg": 11.728505998696559,
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 9.0,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     9.0
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.051,
+    0.057,
+    0.041,
+    0.05,
+    0.014,
+    0.007,
+    0.019
+   ]
+  },
+  {
+   "seed": 800009,
+   "success": true,
+   "time": 42.49999999990095,
+   "peak_force": 14.623759759836092,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.7076010679021912,
+   "wiped": 1.0,
+   "normal_err_deg": 0.22107865735246593,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.236975804637487,
+   "realism": "ripple+latency",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.0,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.0
+    ]
+   ],
+   "calib_s": 67.0,
+   "ripple_rms_after_Nm": [
+    0.038,
+    0.044,
+    0.029,
+    0.038,
+    0.007,
+    0.006,
+    0.006
+   ]
+  },
+  {
+   "seed": 800010,
+   "success": true,
+   "time": 45.58999999989375,
+   "peak_force": 14.250546704375862,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.900259403198015,
+   "wiped": 1.0,
+   "normal_err_deg": 0.16367239001786751,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.462407523693328,
+   "realism": "friction",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.2,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.2
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.031,
+    0.045,
+    0.019,
+    0.014,
+    0.016,
+    0.012,
+    0.011
+   ]
+  },
+  {
+   "seed": 800011,
+   "success": false,
+   "time": 44.84999999989547,
+   "peak_force": 12.79794215050072,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 2.570165730784827,
+   "wiped": 0.9333333333333333,
+   "normal_err_deg": 0.18139475818501322,
+   "contact_frac": 1.0,
+   "tilt_deg": 12.103331625041763,
+   "realism": "friction+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 9.4,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     9.4
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.022,
+    0.034,
+    0.032,
+    0.021,
+    0.006,
+    0.01,
+    0.014
+   ]
+  },
+  {
+   "seed": 800012,
+   "success": true,
+   "time": 43.64999999989827,
+   "peak_force": 15.38093378058686,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.8234192310175765,
+   "wiped": 1.0,
+   "normal_err_deg": 0.09834330632468614,
+   "contact_frac": 1.0,
+   "tilt_deg": 11.169945677799577,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.4,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.4
+    ]
+   ],
+   "calib_s": 67.3,
+   "ripple_rms_after_Nm": [
+    0.004,
+    0.004,
+    0.001,
+    0.001,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800013,
+   "success": true,
+   "time": 43.86999999989776,
+   "peak_force": 13.625521669495816,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.7654063111068912,
+   "wiped": 0.9777777777777777,
+   "normal_err_deg": 0.17469413133924777,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.613331190813685,
+   "realism": "ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 14.6,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     14.6
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.048,
+    0.052,
+    0.051,
+    0.035,
+    0.005,
+    0.006,
+    0.005
+   ]
+  },
+  {
+   "seed": 800014,
+   "success": true,
+   "time": 42.479999999901,
+   "peak_force": 16.76557995706779,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.3954504369273344,
+   "wiped": 0.9777777777777777,
+   "normal_err_deg": 0.14779338183135443,
+   "contact_frac": 1.0,
+   "tilt_deg": 16.54575441888667,
+   "realism": "noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 12.4,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     12.4
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.821,
+    0.862,
+    0.854,
+    0.802,
+    0.099,
+    0.049,
+    0.087
+   ]
+  },
+  {
+   "seed": 800015,
+   "success": true,
+   "time": 44.71999999989578,
+   "peak_force": 19.228910926407494,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.7529231825983721,
+   "wiped": 0.9777777777777777,
+   "normal_err_deg": 0.13329250198766318,
+   "contact_frac": 1.0,
+   "tilt_deg": 18.371481168605982,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.4,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.4
+    ]
+   ],
+   "calib_s": 67.3,
+   "ripple_rms_after_Nm": [
+    0.001,
+    0.002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800016,
+   "success": true,
+   "time": 44.15999999989708,
+   "peak_force": 15.389855792499445,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.8309430268850064,
+   "wiped": 1.0,
+   "normal_err_deg": 0.22752301353335852,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.86642956531383,
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 8.9,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     8.9
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.013,
+    0.043,
+    0.026,
+    0.019,
+    0.003,
+    0.007,
+    0.019
+   ]
+  },
+  {
+   "seed": 800017,
+   "success": false,
+   "time": 45.58999999989375,
+   "peak_force": 10.132288753537223,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 2.0214597117146456,
+   "wiped": 1.0,
+   "normal_err_deg": 0.6782339575795842,
+   "contact_frac": 1.0,
+   "tilt_deg": 15.871597855217527,
+   "realism": "friction+noise+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 10.9,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.9,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.9
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.855,
+    0.909,
+    0.91,
+    0.846,
+    0.096,
+    0.05,
+    0.089
+   ]
+  },
+  {
+   "seed": 800018,
+   "success": true,
+   "time": 43.79999999989792,
+   "peak_force": 13.058354518299462,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.7918681738808637,
+   "wiped": 1.0,
+   "normal_err_deg": 0.5073047048064945,
+   "contact_frac": 1.0,
+   "tilt_deg": 18.368645370789213,
+   "realism": "noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 13.3,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     13.3
+    ]
+   ],
+   "calib_s": 67.4,
+   "ripple_rms_after_Nm": [
+    0.867,
+    0.912,
+    0.868,
+    0.806,
+    0.097,
+    0.05,
+    0.087
+   ]
+  },
+  {
+   "seed": 800019,
+   "success": true,
+   "time": 45.51999999989391,
+   "peak_force": 11.435993500994815,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.7306970760257809,
+   "wiped": 1.0,
+   "normal_err_deg": 0.157916917309511,
+   "contact_frac": 1.0,
+   "tilt_deg": 15.232897976799325,
+   "realism": "noise",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.5,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.5
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.852,
+    0.904,
+    0.88,
+    0.827,
+    0.097,
+    0.048,
+    0.085
+   ]
+  },
+  {
+   "seed": 800020,
+   "success": true,
+   "time": 42.31999999990137,
+   "peak_force": 10.459408001239773,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.8356374293107057,
+   "wiped": 1.0,
+   "normal_err_deg": 0.7812456030484425,
+   "contact_frac": 1.0,
+   "tilt_deg": 11.309984499053646,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.0,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.0
+    ]
+   ],
+   "calib_s": 67.4,
+   "ripple_rms_after_Nm": [
+    0.903,
+    0.947,
+    0.911,
+    0.815,
+    0.097,
+    0.051,
+    0.09
+   ]
+  },
+  {
+   "seed": 800021,
+   "success": true,
+   "time": 44.509999999896266,
+   "peak_force": 13.609536309131549,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.853418736966747,
+   "wiped": 1.0,
+   "normal_err_deg": 0.1944176715827701,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.909629060014204,
+   "realism": "friction+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.9,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.9
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.048,
+    0.052,
+    0.041,
+    0.04,
+    0.011,
+    0.009,
+    0.011
+   ]
+  },
+  {
+   "seed": 800022,
+   "success": true,
+   "time": 44.63999999989596,
+   "peak_force": 12.013893952958616,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.310721337916004,
+   "wiped": 1.0,
+   "normal_err_deg": 0.2850866229232117,
+   "contact_frac": 1.0,
+   "tilt_deg": 11.936525699633746,
+   "realism": "friction+noise",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.5,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.5
+    ]
+   ],
+   "calib_s": 67.4,
+   "ripple_rms_after_Nm": [
+    0.822,
+    0.919,
+    0.909,
+    0.846,
+    0.098,
+    0.05,
+    0.088
+   ]
+  },
+  {
+   "seed": 800023,
+   "success": false,
+   "time": 44.72999999989575,
+   "peak_force": 11.355803692582159,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 2.131196186154024,
+   "wiped": 0.9555555555555556,
+   "normal_err_deg": 0.1917130419000849,
+   "contact_frac": 1.0,
+   "tilt_deg": 11.230264572416667,
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 10.7,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.4,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.4
+    ]
+   ],
+   "calib_s": 67.5,
+   "ripple_rms_after_Nm": [
+    0.803,
+    0.873,
+    0.865,
+    0.806,
+    0.1,
+    0.051,
+    0.095
+   ]
+  },
+  {
+   "seed": 800024,
+   "success": true,
+   "time": 46.39999999989186,
+   "peak_force": 13.119648919970674,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.1808487395453346,
+   "wiped": 1.0,
+   "normal_err_deg": 0.6269932280382368,
+   "contact_frac": 1.0,
+   "tilt_deg": 18.964693434010186,
+   "realism": "friction+ripple",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 9.0,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     9.0
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.052,
+    0.067,
+    0.053,
+    0.051,
+    0.016,
+    0.017,
+    0.013
+   ]
+  },
+  {
+   "seed": 800025,
+   "success": true,
+   "time": 44.36999999989659,
+   "peak_force": 12.944617866878936,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.3470798583805577,
+   "wiped": 1.0,
+   "normal_err_deg": 0.7518867011039636,
+   "contact_frac": 1.0,
+   "tilt_deg": 17.43650469685849,
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 14.1,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     14.1
+    ]
+   ],
+   "calib_s": 67.4,
+   "ripple_rms_after_Nm": [
+    0.811,
+    0.85,
+    0.866,
+    0.803,
+    0.101,
+    0.052,
+    0.093
+   ]
+  },
+  {
+   "seed": 800026,
+   "success": true,
+   "time": 44.64999999989594,
+   "peak_force": 13.961874148205744,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.8702047564904625,
+   "wiped": 1.0,
+   "normal_err_deg": 0.10656993393108086,
+   "contact_frac": 1.0,
+   "tilt_deg": 15.26337917565506,
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.6,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.6
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.041,
+    0.051,
+    0.038,
+    0.059,
+    0.007,
+    0.012,
+    0.011
+   ]
+  },
+  {
+   "seed": 800027,
+   "success": true,
+   "time": 46.42999999989179,
+   "peak_force": 12.428381959557786,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.6391860461491506,
+   "wiped": 1.0,
+   "normal_err_deg": 0.1450912832586321,
+   "contact_frac": 1.0,
+   "tilt_deg": 15.358790349213054,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 13.5,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     13.5
+    ]
+   ],
+   "calib_s": 67.4,
+   "ripple_rms_after_Nm": [
+    0.844,
+    0.898,
+    0.88,
+    0.797,
+    0.094,
+    0.048,
+    0.083
+   ]
+  },
+  {
+   "seed": 800028,
+   "success": true,
+   "time": 41.94999999990223,
+   "peak_force": 12.27725745502598,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.6608076291170829,
+   "wiped": 0.9777777777777777,
+   "normal_err_deg": 0.1818022387119684,
+   "contact_frac": 1.0,
+   "tilt_deg": 15.77518824531022,
+   "realism": "ripple",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.2,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.2
+    ]
+   ],
+   "calib_s": 67.6,
+   "ripple_rms_after_Nm": [
+    0.04,
+    0.055,
+    0.051,
+    0.044,
+    0.007,
+    0.007,
+    0.008
+   ]
+  },
+  {
+   "seed": 800029,
+   "success": true,
+   "time": 43.83999999989783,
+   "peak_force": 16.54849509284598,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.5539446984914966,
+   "wiped": 1.0,
+   "normal_err_deg": 0.11863915962848108,
+   "contact_frac": 1.0,
+   "tilt_deg": 14.866994275992653,
+   "realism": "latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 8.6,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     8.6
+    ]
+   ],
+   "calib_s": 67.3,
+   "ripple_rms_after_Nm": [
+    0.01,
+    0.012,
+    0.003,
+    0.003,
+    0.001,
+    0.001,
+    0.001
+   ]
+  },
+  {
+   "seed": 800030,
+   "success": true,
+   "time": 42.42999999990111,
+   "peak_force": 12.486407729997808,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.8670067200304277,
+   "wiped": 1.0,
+   "normal_err_deg": 0.651797485265767,
+   "contact_frac": 1.0,
+   "tilt_deg": 18.273530998207015,
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 13.4,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     13.4
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.868,
+    0.907,
+    0.944,
+    0.863,
+    0.099,
+    0.055,
+    0.092
+   ]
+  },
+  {
+   "seed": 800031,
+   "success": true,
+   "time": 43.759999999898014,
+   "peak_force": 18.33914297762545,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.8450860582242282,
+   "wiped": 1.0,
+   "normal_err_deg": 0.12654893822358124,
+   "contact_frac": 1.0,
+   "tilt_deg": 18.01082041604265,
+   "realism": "ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 12.6,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     12.6
+    ]
+   ],
+   "calib_s": 67.3,
+   "ripple_rms_after_Nm": [
+    0.04,
+    0.046,
+    0.051,
+    0.042,
+    0.006,
+    0.007,
+    0.004
+   ]
+  },
+  {
+   "seed": 800032,
+   "success": true,
+   "time": 43.45999999989871,
+   "peak_force": 12.942853552105003,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.6421242948568289,
+   "wiped": 1.0,
+   "normal_err_deg": 0.26704039778135924,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.249560967447856,
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 10.9,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 13.3,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     13.3
+    ]
+   ],
+   "calib_s": 67.4,
+   "ripple_rms_after_Nm": [
+    0.047,
+    0.058,
+    0.037,
+    0.054,
+    0.014,
+    0.012,
+    0.019
+   ]
+  },
+  {
+   "seed": 800033,
+   "success": true,
+   "time": 43.57999999989843,
+   "peak_force": 11.999340283697968,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.8052539940519408,
+   "wiped": 1.0,
+   "normal_err_deg": 0.15819045473669116,
+   "contact_frac": 1.0,
+   "tilt_deg": 11.611459140335798,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 10.9,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 12.7,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     12.7
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.785,
+    0.869,
+    0.893,
+    0.827,
+    0.094,
+    0.051,
+    0.095
+   ]
+  },
+  {
+   "seed": 800034,
+   "success": true,
+   "time": 41.89999999990235,
+   "peak_force": 15.87655003674647,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.6013703184955838,
+   "wiped": 1.0,
+   "normal_err_deg": 0.15383865627083473,
+   "contact_frac": 1.0,
+   "tilt_deg": 18.977389823061404,
+   "realism": "clean",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.6,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.6
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800035,
+   "success": true,
+   "time": 45.49999999989396,
+   "peak_force": 12.169415888012322,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.0951359055195318,
+   "wiped": 1.0,
+   "normal_err_deg": 0.22914334792952493,
+   "contact_frac": 1.0,
+   "tilt_deg": 16.77256646257457,
+   "realism": "noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 13.0,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     13.0
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.848,
+    0.92,
+    0.891,
+    0.819,
+    0.09,
+    0.05,
+    0.083
+   ]
+  },
+  {
+   "seed": 800036,
+   "success": true,
+   "time": 42.39999999990118,
+   "peak_force": 12.17880932303074,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.9470279049351105,
+   "wiped": 1.0,
+   "normal_err_deg": 0.23140786024232105,
+   "contact_frac": 1.0,
+   "tilt_deg": 14.122833142612778,
+   "realism": "friction+noise+latency",
+   "task_ok": true,
+   "joint_margin_deg": 10.8,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 13.0,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     13.0
+    ]
+   ],
+   "calib_s": 67.4,
+   "ripple_rms_after_Nm": [
+    0.843,
+    0.895,
+    0.905,
+    0.827,
+    0.095,
+    0.05,
+    0.09
+   ]
+  },
+  {
+   "seed": 800037,
+   "success": true,
+   "time": 42.44999999990107,
+   "peak_force": 14.78834060168851,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.7062400621740917,
+   "wiped": 1.0,
+   "normal_err_deg": 0.1222905792281028,
+   "contact_frac": 1.0,
+   "tilt_deg": 14.575761299013411,
+   "realism": "latency",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.2,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.2
+    ]
+   ],
+   "calib_s": 67.3,
+   "ripple_rms_after_Nm": [
+    0.018,
+    0.018,
+    0.005,
+    0.006,
+    0.002,
+    0.002,
+    0.003
+   ]
+  },
+  {
+   "seed": 800038,
+   "success": true,
+   "time": 44.48999999989631,
+   "peak_force": 14.225887352610004,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.185740188382878,
+   "wiped": 1.0,
+   "normal_err_deg": 0.4203773673658185,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.83605967217043,
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 10.9,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.0,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.0
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.815,
+    0.883,
+    0.852,
+    0.804,
+    0.096,
+    0.05,
+    0.086
+   ]
+  },
+  {
+   "seed": 800039,
+   "success": true,
+   "time": 42.32999999990135,
+   "peak_force": 16.52256440963372,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.9062817008448182,
+   "wiped": 1.0,
+   "normal_err_deg": 0.10485409306393306,
+   "contact_frac": 1.0,
+   "tilt_deg": 14.928013105705203,
+   "realism": "ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.5,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.5
+    ]
+   ],
+   "calib_s": 66.8,
+   "ripple_rms_after_Nm": [
+    0.039,
+    0.048,
+    0.044,
+    0.046,
+    0.005,
+    0.005,
+    0.008
+   ]
+  },
+  {
+   "seed": 800040,
+   "success": true,
+   "time": 43.0799999998996,
+   "peak_force": 13.60814685766849,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.0940862669357014,
+   "wiped": 1.0,
+   "normal_err_deg": 0.11166438865950856,
+   "contact_frac": 1.0,
+   "tilt_deg": 14.53978421087941,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 10.9,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 9.9,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     9.9
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.807,
+    0.85,
+    0.902,
+    0.832,
+    0.101,
+    0.051,
+    0.094
+   ]
+  },
+  {
+   "seed": 800041,
+   "success": true,
+   "time": 43.34999999989897,
+   "peak_force": 15.077985138463507,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.7607631877126676,
+   "wiped": 1.0,
+   "normal_err_deg": 0.10850149217096179,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.037272017296415,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 11.1,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     11.1
+    ]
+   ],
+   "calib_s": 67.3,
+   "ripple_rms_after_Nm": [
+    0.004,
+    0.004,
+    0.001,
+    0.001,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800042,
+   "success": true,
+   "time": 45.479999999894005,
+   "peak_force": 14.254536187299232,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.1121753410953457,
+   "wiped": 1.0,
+   "normal_err_deg": 0.2944523091877328,
+   "contact_frac": 1.0,
+   "tilt_deg": 18.74035809187793,
+   "realism": "friction+ripple+latency",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 15.3,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     15.3
+    ]
+   ],
+   "calib_s": 67.4,
+   "ripple_rms_after_Nm": [
+    0.043,
+    0.054,
+    0.054,
+    0.048,
+    0.015,
+    0.019,
+    0.01
+   ]
+  },
+  {
+   "seed": 800043,
+   "success": true,
+   "time": 42.579999999900764,
+   "peak_force": 16.089868131640934,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.6915473806651344,
+   "wiped": 1.0,
+   "normal_err_deg": 0.11486376835546652,
+   "contact_frac": 1.0,
+   "tilt_deg": 17.194953945182267,
+   "realism": "noise+latency",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.7,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.7
+    ]
+   ],
+   "calib_s": 67.4,
+   "ripple_rms_after_Nm": [
+    0.819,
+    0.904,
+    0.901,
+    0.828,
+    0.098,
+    0.049,
+    0.086
+   ]
+  },
+  {
+   "seed": 800044,
+   "success": true,
+   "time": 47.93999999988827,
+   "peak_force": 13.611658804438997,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.3293165262715456,
+   "wiped": 1.0,
+   "normal_err_deg": 0.17745240803568632,
+   "contact_frac": 1.0,
+   "tilt_deg": 14.642140652198357,
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.1,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.1
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.015,
+    0.043,
+    0.022,
+    0.016,
+    0.013,
+    0.008,
+    0.01
+   ]
+  },
+  {
+   "seed": 800045,
+   "success": true,
+   "time": 44.92999999989529,
+   "peak_force": 13.989102757914445,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.1041893275310646,
+   "wiped": 0.9777777777777777,
+   "normal_err_deg": 0.18018933418450955,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.16877565256804,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 10.8,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.9,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.9
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.816,
+    0.884,
+    0.908,
+    0.824,
+    0.097,
+    0.05,
+    0.085
+   ]
+  },
+  {
+   "seed": 800046,
+   "success": false,
+   "time": 45.839999999893166,
+   "peak_force": 14.01971568393955,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 2.2132664350957185,
+   "wiped": 1.0,
+   "normal_err_deg": 0.6088281346439849,
+   "contact_frac": 1.0,
+   "tilt_deg": 17.34700991028403,
+   "realism": "friction+noise+ripple+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 15.1,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     15.1
+    ]
+   ],
+   "calib_s": 67.3,
+   "ripple_rms_after_Nm": [
+    0.831,
+    0.916,
+    0.863,
+    0.827,
+    0.094,
+    0.052,
+    0.086
+   ]
+  },
+  {
+   "seed": 800047,
+   "success": false,
+   "time": 44.97999999989517,
+   "peak_force": 11.606986554261036,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 2.720956298554405,
+   "wiped": 1.0,
+   "normal_err_deg": 0.2550934943646673,
+   "contact_frac": 1.0,
+   "tilt_deg": 13.222253719594068,
+   "realism": "friction+noise+ripple",
+   "task_ok": false,
+   "joint_margin_deg": 11.1,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.5,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.5
+    ]
+   ],
+   "calib_s": 67.0,
+   "ripple_rms_after_Nm": [
+    0.85,
+    0.93,
+    0.888,
+    0.84,
+    0.097,
+    0.051,
+    0.089
+   ]
+  },
+  {
+   "seed": 800048,
+   "success": true,
+   "time": 47.809999999888575,
+   "peak_force": 13.727363373271386,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 1.5968194259474664,
+   "wiped": 1.0,
+   "normal_err_deg": 0.2784419109626777,
+   "contact_frac": 1.0,
+   "tilt_deg": 12.944262428810537,
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 10.9,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 12.6,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     12.6
+    ]
+   ],
+   "calib_s": 67.2,
+   "ripple_rms_after_Nm": [
+    0.849,
+    0.912,
+    0.911,
+    0.846,
+    0.106,
+    0.051,
+    0.09
+   ]
+  },
+  {
+   "seed": 800049,
+   "success": true,
+   "time": 42.62999999990065,
+   "peak_force": 16.459676255449487,
+   "touches": 4,
+   "reflexes": 0,
+   "force_rmse": 0.9911471081694445,
+   "wiped": 1.0,
+   "normal_err_deg": 0.08390497629687503,
+   "contact_frac": 1.0,
+   "tilt_deg": 18.54099928455575,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 11.0,
+   "joint_margin_at": "joint 7 during 'Feel the board at four points'",
+   "peak_contact_N": 10.5,
+   "peak_pair": "eraser_felt vs board",
+   "peak_step": "Wipe, holding 8 N against the board",
+   "top_pairs": [
+    [
+     "eraser_felt vs board",
+     10.5
+    ]
+   ],
+   "calib_s": 67.1,
+   "ripple_rms_after_Nm": [
+    0.811,
+    0.875,
+    0.883,
+    0.784,
+    0.099,
+    0.05,
+    0.091
+   ]
+  }
+ ]
+}

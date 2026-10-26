@@ -1,0 +1,2135 @@
+{
+ "job": "socket",
+ "title": "Plug in a charger behind the TV",
+ "summary": {
+  "n": 50,
+  "success": 0.8,
+  "ci95": [
+   0.6696262789551477,
+   0.8875637005402612
+  ],
+  "time_s": 36.3942499999497,
+  "peak_force_N_median": 14.897273090917889,
+  "touches_mean": 7.12
+ },
+ "raw": [
+  {
+   "seed": 800000,
+   "success": false,
+   "time": 108.32000000012832,
+   "peak_force": 9.697774331281723,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 7.5,
+   "stage": "turn",
+   "yaw_off_deg": 8.3,
+   "realism": "friction+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 14.0,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 20.9,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Mistake (turn: no drop): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     20.9
+    ],
+    [
+     "plug_pin0 vs fixture",
+     20.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.015,
+    0.046,
+    0.018,
+    0.027,
+    0.005,
+    0.011,
+    0.01
+   ]
+  },
+  {
+   "seed": 800001,
+   "success": true,
+   "time": 23.22999999994586,
+   "peak_force": 14.989474702923863,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 7.7,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.5,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 6.6,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     6.6
+    ],
+    [
+     "plug_pin0 vs fixture",
+     3.4
+    ],
+    [
+     "plug_nose vs fixture",
+     0.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.001,
+    0.002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800002,
+   "success": true,
+   "time": 30.989999999927775,
+   "peak_force": 14.752915532901987,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": -8.0,
+   "realism": "ripple",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 7.1,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     7.1
+    ],
+    [
+     "plug_pin1 vs fixture",
+     5.1
+    ],
+    [
+     "plug_nose vs fixture",
+     1.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.044,
+    0.049,
+    0.034,
+    0.046,
+    0.007,
+    0.008,
+    0.007
+   ]
+  },
+  {
+   "seed": 800003,
+   "success": true,
+   "time": 76.64999999997347,
+   "peak_force": 14.993231105925672,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.5,
+   "stage": "done",
+   "yaw_off_deg": -14.7,
+   "realism": "friction+latency",
+   "task_ok": true,
+   "joint_margin_deg": 14.1,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 12.7,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Mistake (turn: no drop): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     12.7
+    ],
+    [
+     "plug_pin1 vs fixture",
+     11.6
+    ],
+    [
+     "plug_nose vs fixture",
+     3.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.011,
+    0.032,
+    0.019,
+    0.011,
+    0.014,
+    0.009,
+    0.013
+   ]
+  },
+  {
+   "seed": 800004,
+   "success": true,
+   "time": 21.649999999949543,
+   "peak_force": 14.243184790963102,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 4.7,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.4,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 4.0,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Lower the plug until it touches the power strip",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     4.0
+    ],
+    [
+     "plug_pin1 vs fixture",
+     3.9
+    ],
+    [
+     "plug_nose vs fixture",
+     1.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.898,
+    0.942,
+    0.871,
+    0.823,
+    0.1,
+    0.051,
+    0.089
+   ]
+  },
+  {
+   "seed": 800005,
+   "success": true,
+   "time": 21.279999999950405,
+   "peak_force": 15.295572363579094,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 2.0,
+   "realism": "noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.4,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 7.9,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     7.9
+    ],
+    [
+     "plug_pin1 vs fixture",
+     5.6
+    ],
+    [
+     "plug_nose vs fixture",
+     1.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.927,
+    0.982,
+    0.924,
+    0.855,
+    0.108,
+    0.051,
+    0.09
+   ]
+  },
+  {
+   "seed": 800006,
+   "success": true,
+   "time": 29.139999999932087,
+   "peak_force": 14.067822842400018,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 6.1,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.4,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 10.1,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     10.1
+    ],
+    [
+     "plug_pin0 vs fixture",
+     4.3
+    ],
+    [
+     "plug_nose vs fixture",
+     1.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.935,
+    0.983,
+    0.937,
+    0.868,
+    0.092,
+    0.056,
+    0.084
+   ]
+  },
+  {
+   "seed": 800007,
+   "success": true,
+   "time": 112.94000000014356,
+   "peak_force": 15.035361601608782,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": 11.8,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Push until the plug seats'",
+   "peak_contact_N": 10.0,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     10.0
+    ],
+    [
+     "plug_pin1 vs fixture",
+     5.9
+    ],
+    [
+     "plug_nose vs fixture",
+     2.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.927,
+    0.977,
+    0.927,
+    0.855,
+    0.108,
+    0.05,
+    0.094
+   ]
+  },
+  {
+   "seed": 800008,
+   "success": false,
+   "time": 119.72000000017579,
+   "peak_force": 10.76853518432148,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": false,
+   "pin_depth_mm": -0.5,
+   "stage": "turn",
+   "yaw_off_deg": -2.4,
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 14.0,
+   "joint_margin_at": "joint 3 during 'Mistake (turn: no drop): try a fix learned from experience'",
+   "peak_contact_N": 12.3,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     12.3
+    ],
+    [
+     "plug_pin1 vs fixture",
+     9.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.051,
+    0.057,
+    0.043,
+    0.049,
+    0.014,
+    0.007,
+    0.017
+   ]
+  },
+  {
+   "seed": 800009,
+   "success": true,
+   "time": 34.049999999920644,
+   "peak_force": 14.720654517463833,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": -8.1,
+   "realism": "ripple+latency",
+   "task_ok": true,
+   "joint_margin_deg": 13.6,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 7.5,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     7.5
+    ],
+    [
+     "plug_pin1 vs fixture",
+     5.2
+    ],
+    [
+     "plug_nose vs fixture",
+     1.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.04,
+    0.046,
+    0.03,
+    0.036,
+    0.007,
+    0.006,
+    0.006
+   ]
+  },
+  {
+   "seed": 800010,
+   "success": true,
+   "time": 114.24000000014969,
+   "peak_force": 14.673704820991427,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": 13.1,
+   "realism": "friction",
+   "task_ok": true,
+   "joint_margin_deg": 14.1,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 7.4,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Push until the plug seats",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     7.4
+    ],
+    [
+     "plug_pin1 vs fixture",
+     6.9
+    ],
+    [
+     "plug_nose vs fixture",
+     1.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.032,
+    0.048,
+    0.019,
+    0.014,
+    0.016,
+    0.012,
+    0.009
+   ]
+  },
+  {
+   "seed": 800011,
+   "success": true,
+   "time": 111.86000000014522,
+   "peak_force": 15.715786248174531,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.7,
+   "stage": "done",
+   "yaw_off_deg": 8.8,
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 14.4,
+   "joint_margin_at": "joint 3 during 'Push until the plug seats'",
+   "peak_contact_N": 8.5,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Mistake (turn: no drop): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     8.5
+    ],
+    [
+     "plug_pin1 vs fixture",
+     8.4
+    ],
+    [
+     "plug_nose vs fixture",
+     2.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.022,
+    0.032,
+    0.032,
+    0.021,
+    0.006,
+    0.01,
+    0.012
+   ]
+  },
+  {
+   "seed": 800012,
+   "success": true,
+   "time": 30.869999999928055,
+   "peak_force": 14.990554949642824,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": -11.2,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 7.3,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     7.3
+    ],
+    [
+     "plug_pin0 vs fixture",
+     6.7
+    ],
+    [
+     "plug_nose vs fixture",
+     1.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.004,
+    0.004,
+    0.001,
+    0.001,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800013,
+   "success": true,
+   "time": 29.449999999931364,
+   "peak_force": 14.30262147840656,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": -12.8,
+   "realism": "ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 3.5,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Lift the pins off the floor, touch the socket wall all round, move to its centre",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     3.5
+    ],
+    [
+     "plug_pin1 vs fixture",
+     3.0
+    ],
+    [
+     "plug_nose vs fixture",
+     1.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.048,
+    0.052,
+    0.052,
+    0.035,
+    0.006,
+    0.006,
+    0.006
+   ]
+  },
+  {
+   "seed": 800014,
+   "success": true,
+   "time": 28.97999999993246,
+   "peak_force": 14.337715594888513,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": -3.9,
+   "realism": "noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.4,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 6.8,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     6.8
+    ],
+    [
+     "plug_pin1 vs fixture",
+     4.6
+    ],
+    [
+     "plug_nose vs fixture",
+     2.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.865,
+    0.907,
+    0.855,
+    0.815,
+    0.099,
+    0.05,
+    0.086
+   ]
+  },
+  {
+   "seed": 800015,
+   "success": true,
+   "time": 37.96999999991151,
+   "peak_force": 15.051740409657688,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": -12.2,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 8.1,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     8.1
+    ],
+    [
+     "plug_pin1 vs fixture",
+     7.4
+    ],
+    [
+     "plug_nose vs fixture",
+     1.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.001,
+    0.002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800016,
+   "success": true,
+   "time": 25.10999999994148,
+   "peak_force": 15.44784178609234,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": -2.7,
+   "realism": "friction+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.5,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 9.8,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     9.8
+    ],
+    [
+     "plug_pin1 vs fixture",
+     6.5
+    ],
+    [
+     "plug_nose vs fixture",
+     1.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.013,
+    0.042,
+    0.026,
+    0.019,
+    0.003,
+    0.007,
+    0.015
+   ]
+  },
+  {
+   "seed": 800017,
+   "success": true,
+   "time": 26.97999999993712,
+   "peak_force": 17.716912725639713,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 17.5,
+   "stage": "done",
+   "yaw_off_deg": 9.0,
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 14.1,
+   "joint_margin_at": "joint 3 during 'Push until the plug seats'",
+   "peak_contact_N": 9.3,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     9.3
+    ],
+    [
+     "plug_pin1 vs fixture",
+     5.9
+    ],
+    [
+     "plug_nose vs fixture",
+     4.0
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.91,
+    0.958,
+    0.912,
+    0.857,
+    0.096,
+    0.05,
+    0.086
+   ]
+  },
+  {
+   "seed": 800018,
+   "success": true,
+   "time": 26.329999999938636,
+   "peak_force": 15.683150693177176,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 17.5,
+   "stage": "done",
+   "yaw_off_deg": 4.1,
+   "realism": "noise+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.3,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 15.5,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     15.5
+    ],
+    [
+     "plug_pin0 vs fixture",
+     3.6
+    ],
+    [
+     "plug_nose vs fixture",
+     3.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.923,
+    0.961,
+    0.874,
+    0.816,
+    0.097,
+    0.05,
+    0.085
+   ]
+  },
+  {
+   "seed": 800019,
+   "success": true,
+   "time": 21.409999999950102,
+   "peak_force": 14.25435187678887,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 4.6,
+   "realism": "noise",
+   "task_ok": true,
+   "joint_margin_deg": 15.4,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 3.9,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Lower the plug until it touches the power strip",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     3.9
+    ],
+    [
+     "plug_pin0 vs fixture",
+     2.6
+    ],
+    [
+     "plug_nose vs fixture",
+     1.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.903,
+    0.952,
+    0.883,
+    0.84,
+    0.097,
+    0.049,
+    0.084
+   ]
+  },
+  {
+   "seed": 800020,
+   "success": true,
+   "time": 23.389999999945488,
+   "peak_force": 14.287260649892445,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 6.5,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.6,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 9.0,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     9.0
+    ],
+    [
+     "plug_pin1 vs fixture",
+     6.6
+    ],
+    [
+     "plug_nose vs fixture",
+     2.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.958,
+    1.001,
+    0.908,
+    0.829,
+    0.097,
+    0.052,
+    0.087
+   ]
+  },
+  {
+   "seed": 800021,
+   "success": true,
+   "time": 30.30999999992936,
+   "peak_force": 14.303517209890648,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.6,
+   "stage": "done",
+   "yaw_off_deg": -4.5,
+   "realism": "friction+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 14.1,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 7.2,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Push until the plug seats",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     7.2
+    ],
+    [
+     "plug_pin1 vs fixture",
+     4.7
+    ],
+    [
+     "plug_nose vs fixture",
+     2.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.045,
+    0.054,
+    0.04,
+    0.039,
+    0.011,
+    0.009,
+    0.01
+   ]
+  },
+  {
+   "seed": 800022,
+   "success": false,
+   "time": 112.94000000014363,
+   "peak_force": 10.309137467546211,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": false,
+   "pin_depth_mm": -1.0,
+   "stage": "turn",
+   "yaw_off_deg": -9.6,
+   "realism": "friction+noise",
+   "task_ok": false,
+   "joint_margin_deg": 13.5,
+   "joint_margin_at": "joint 3 during 'Mistake (turn: no drop): try a fix learned from experience'",
+   "peak_contact_N": 11.1,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     11.1
+    ],
+    [
+     "plug_pin1 vs fixture",
+     7.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.876,
+    0.97,
+    0.913,
+    0.856,
+    0.098,
+    0.051,
+    0.086
+   ]
+  },
+  {
+   "seed": 800023,
+   "success": false,
+   "time": 88.55000000002958,
+   "peak_force": 19.30456086812393,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": false,
+   "pin_depth_mm": 0.0,
+   "stage": "seat",
+   "yaw_off_deg": 1.9,
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 15.0,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 11.6,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     11.6
+    ],
+    [
+     "plug_pin1 vs fixture",
+     10.9
+    ],
+    [
+     "plug_nose vs fixture",
+     5.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.851,
+    0.925,
+    0.872,
+    0.815,
+    0.1,
+    0.052,
+    0.093
+   ]
+  },
+  {
+   "seed": 800024,
+   "success": true,
+   "time": 27.5899999999357,
+   "peak_force": 13.911128272805778,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 8.4,
+   "realism": "friction+ripple",
+   "task_ok": true,
+   "joint_margin_deg": 14.8,
+   "joint_margin_at": "joint 3 during 'Push until the plug seats'",
+   "peak_contact_N": 9.6,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Lift the pins off the floor, touch the socket wall all round, move to its centre",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     9.6
+    ],
+    [
+     "plug_pin1 vs fixture",
+     9.4
+    ],
+    [
+     "plug_nose vs fixture",
+     1.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.052,
+    0.065,
+    0.051,
+    0.055,
+    0.016,
+    0.018,
+    0.013
+   ]
+  },
+  {
+   "seed": 800025,
+   "success": false,
+   "time": 110.90000000013367,
+   "peak_force": 10.219412368687745,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": false,
+   "pin_depth_mm": -0.1,
+   "stage": "turn",
+   "yaw_off_deg": 4.0,
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Mistake (turn: no drop): try a fix learned from experience'",
+   "peak_contact_N": 10.6,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     10.6
+    ],
+    [
+     "plug_pin1 vs fixture",
+     8.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.876,
+    0.904,
+    0.874,
+    0.811,
+    0.102,
+    0.052,
+    0.09
+   ]
+  },
+  {
+   "seed": 800026,
+   "success": true,
+   "time": 41.4499999999034,
+   "peak_force": 13.54096131195026,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.4,
+   "stage": "done",
+   "yaw_off_deg": -0.1,
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 14.8,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 13.8,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Mistake (turn: half in): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     13.8
+    ],
+    [
+     "plug_pin1 vs fixture",
+     13.5
+    ],
+    [
+     "plug_nose vs fixture",
+     2.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.042,
+    0.052,
+    0.04,
+    0.059,
+    0.008,
+    0.011,
+    0.01
+   ]
+  },
+  {
+   "seed": 800027,
+   "success": true,
+   "time": 23.099999999946164,
+   "peak_force": 14.587985521096044,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": -0.7,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.5,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 8.4,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     8.4
+    ],
+    [
+     "plug_pin0 vs fixture",
+     4.5
+    ],
+    [
+     "plug_nose vs fixture",
+     2.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.899,
+    0.948,
+    0.883,
+    0.806,
+    0.095,
+    0.048,
+    0.079
+   ]
+  },
+  {
+   "seed": 800028,
+   "success": true,
+   "time": 22.159999999948354,
+   "peak_force": 14.878035113079347,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": -3.3,
+   "realism": "ripple",
+   "task_ok": true,
+   "joint_margin_deg": 15.5,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 7.4,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     7.4
+    ],
+    [
+     "plug_pin1 vs fixture",
+     5.4
+    ],
+    [
+     "plug_nose vs fixture",
+     1.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.04,
+    0.053,
+    0.048,
+    0.044,
+    0.007,
+    0.007,
+    0.008
+   ]
+  },
+  {
+   "seed": 800029,
+   "success": true,
+   "time": 30.8499999999281,
+   "peak_force": 14.929932099294012,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": -10.5,
+   "realism": "latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 3.0,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Lower the plug until it touches the power strip",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     3.0
+    ],
+    [
+     "plug_pin0 vs fixture",
+     2.9
+    ],
+    [
+     "plug_nose vs fixture",
+     1.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.01,
+    0.012,
+    0.003,
+    0.003,
+    0.001,
+    0.001,
+    0.001
+   ]
+  },
+  {
+   "seed": 800030,
+   "success": true,
+   "time": 22.38999999994782,
+   "peak_force": 15.652948725454822,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": 2.1,
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.3,
+   "joint_margin_at": "joint 3 during 'Push until the plug seats'",
+   "peak_contact_N": 10.0,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     10.0
+    ],
+    [
+     "plug_pin0 vs fixture",
+     9.9
+    ],
+    [
+     "plug_nose vs fixture",
+     2.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.922,
+    0.955,
+    0.947,
+    0.875,
+    0.099,
+    0.056,
+    0.087
+   ]
+  },
+  {
+   "seed": 800031,
+   "success": true,
+   "time": 36.589999999914724,
+   "peak_force": 15.044812340976229,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.8,
+   "stage": "done",
+   "yaw_off_deg": -4.5,
+   "realism": "ripple+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.5,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 14.0,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Turn until the pins drop into their holes",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     14.0
+    ],
+    [
+     "plug_pin1 vs fixture",
+     13.4
+    ],
+    [
+     "plug_nose vs fixture",
+     1.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.041,
+    0.046,
+    0.051,
+    0.042,
+    0.006,
+    0.007,
+    0.004
+   ]
+  },
+  {
+   "seed": 800032,
+   "success": false,
+   "time": 54.35999999987331,
+   "peak_force": 14.06531588865668,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 4.3,
+   "stage": "seat",
+   "yaw_off_deg": -3.5,
+   "realism": "friction+ripple+latency+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 14.9,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 11.5,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Mistake (seat: stuck): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     11.5
+    ],
+    [
+     "plug_pin0 vs fixture",
+     10.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.046,
+    0.06,
+    0.038,
+    0.053,
+    0.014,
+    0.012,
+    0.018
+   ]
+  },
+  {
+   "seed": 800033,
+   "success": true,
+   "time": 37.25999999991316,
+   "peak_force": 17.022749979899253,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.5,
+   "stage": "done",
+   "yaw_off_deg": -5.1,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 14.7,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 11.7,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Turn until the pins drop into their holes",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     11.7
+    ],
+    [
+     "plug_pin1 vs fixture",
+     11.0
+    ],
+    [
+     "plug_nose vs fixture",
+     2.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.833,
+    0.915,
+    0.894,
+    0.838,
+    0.094,
+    0.052,
+    0.091
+   ]
+  },
+  {
+   "seed": 800034,
+   "success": true,
+   "time": 28.119999999934464,
+   "peak_force": 15.001534191315649,
+   "touches": 7,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 1.5,
+   "realism": "clean",
+   "task_ok": true,
+   "joint_margin_deg": 15.5,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 9.4,
+   "peak_pair": "plug_nose vs fixture",
+   "peak_step": "Mistake (spiral: off the strip): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_nose vs fixture",
+     9.4
+    ],
+    [
+     "plug_pin0 vs fixture",
+     5.2
+    ],
+    [
+     "plug_pin1 vs fixture",
+     4.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800035,
+   "success": true,
+   "time": 31.84999999992577,
+   "peak_force": 14.349472851289859,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": -9.9,
+   "realism": "noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 8.1,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     8.1
+    ],
+    [
+     "plug_pin0 vs fixture",
+     4.6
+    ],
+    [
+     "plug_nose vs fixture",
+     1.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.899,
+    0.964,
+    0.892,
+    0.829,
+    0.09,
+    0.05,
+    0.082
+   ]
+  },
+  {
+   "seed": 800036,
+   "success": false,
+   "time": 110.60000000013217,
+   "peak_force": 5.745896428394113,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": false,
+   "pin_depth_mm": -0.0,
+   "stage": "turn",
+   "yaw_off_deg": -7.4,
+   "realism": "friction+noise+latency",
+   "task_ok": false,
+   "joint_margin_deg": 15.5,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 7.5,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Mistake (turn: no drop): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     7.5
+    ],
+    [
+     "plug_pin1 vs fixture",
+     7.3
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.896,
+    0.944,
+    0.909,
+    0.839,
+    0.096,
+    0.051,
+    0.086
+   ]
+  },
+  {
+   "seed": 800037,
+   "success": true,
+   "time": 32.69999999992379,
+   "peak_force": 14.994744122222649,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.9,
+   "stage": "done",
+   "yaw_off_deg": -7.5,
+   "realism": "latency",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 10.7,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     10.7
+    ],
+    [
+     "plug_pin1 vs fixture",
+     5.2
+    ],
+    [
+     "plug_nose vs fixture",
+     1.7
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.018,
+    0.018,
+    0.005,
+    0.006,
+    0.002,
+    0.002,
+    0.002
+   ]
+  },
+  {
+   "seed": 800038,
+   "success": false,
+   "time": 113.92000000015257,
+   "peak_force": 23.161642673634535,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 7.1,
+   "stage": "done",
+   "yaw_off_deg": -6.7,
+   "realism": "friction+noise+ripple+latency+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 14.4,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 40.9,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Mistake (turn: no drop): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     40.9
+    ],
+    [
+     "plug_pin0 vs fixture",
+     37.5
+    ],
+    [
+     "plug_nose vs fixture",
+     4.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.857,
+    0.923,
+    0.853,
+    0.814,
+    0.096,
+    0.05,
+    0.084
+   ]
+  },
+  {
+   "seed": 800039,
+   "success": true,
+   "time": 31.679999999926167,
+   "peak_force": 14.355521357082957,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": -14.9,
+   "realism": "ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 3.8,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Lift the pins off the floor, touch the socket wall all round, move to its centre",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     3.8
+    ],
+    [
+     "plug_pin1 vs fixture",
+     3.4
+    ],
+    [
+     "plug_nose vs fixture",
+     2.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.04,
+    0.048,
+    0.045,
+    0.046,
+    0.005,
+    0.005,
+    0.007
+   ]
+  },
+  {
+   "seed": 800040,
+   "success": true,
+   "time": 17.499999999959215,
+   "peak_force": 15.779747374254434,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 1.9,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.6,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 4.2,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Lower the plug until it touches the power strip",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     4.2
+    ],
+    [
+     "plug_pin1 vs fixture",
+     4.1
+    ],
+    [
+     "plug_nose vs fixture",
+     2.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.862,
+    0.901,
+    0.907,
+    0.844,
+    0.103,
+    0.052,
+    0.091
+   ]
+  },
+  {
+   "seed": 800041,
+   "success": true,
+   "time": 30.419999999929104,
+   "peak_force": 14.916511068756428,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": -5.5,
+   "realism": "model_error",
+   "task_ok": true,
+   "joint_margin_deg": 13.7,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 3.9,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Turn until the pins drop into their holes",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     3.9
+    ],
+    [
+     "plug_pin0 vs fixture",
+     3.7
+    ],
+    [
+     "plug_nose vs fixture",
+     1.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.004,
+    0.004,
+    0.001,
+    0.001,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "seed": 800042,
+   "success": true,
+   "time": 41.1499999999041,
+   "peak_force": 15.214982496910146,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 17.0,
+   "stage": "done",
+   "yaw_off_deg": -3.7,
+   "realism": "friction+ripple+latency",
+   "task_ok": true,
+   "joint_margin_deg": 15.4,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 12.6,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Mistake (seat: stuck): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     12.6
+    ],
+    [
+     "plug_pin1 vs fixture",
+     11.5
+    ],
+    [
+     "plug_nose vs fixture",
+     2.2
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.044,
+    0.053,
+    0.052,
+    0.049,
+    0.016,
+    0.02,
+    0.009
+   ]
+  },
+  {
+   "seed": 800043,
+   "success": true,
+   "time": 21.469999999949962,
+   "peak_force": 15.108452462266944,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 7.2,
+   "realism": "noise+latency",
+   "task_ok": true,
+   "joint_margin_deg": 15.2,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 7.8,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     7.8
+    ],
+    [
+     "plug_pin1 vs fixture",
+     5.5
+    ],
+    [
+     "plug_nose vs fixture",
+     0.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.871,
+    0.95,
+    0.905,
+    0.841,
+    0.098,
+    0.05,
+    0.085
+   ]
+  },
+  {
+   "seed": 800044,
+   "success": false,
+   "time": 108.78000000012369,
+   "peak_force": 5.547469459835431,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": false,
+   "pin_depth_mm": -0.0,
+   "stage": "turn",
+   "yaw_off_deg": 11.7,
+   "realism": "friction+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 5.6,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Mistake (turn: no drop): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     5.6
+    ],
+    [
+     "plug_pin1 vs fixture",
+     4.5
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.015,
+    0.043,
+    0.022,
+    0.016,
+    0.013,
+    0.008,
+    0.008
+   ]
+  },
+  {
+   "seed": 800045,
+   "success": true,
+   "time": 28.479999999933625,
+   "peak_force": 14.405628281858888,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.8,
+   "stage": "done",
+   "yaw_off_deg": -4.2,
+   "realism": "friction+noise+latency+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.4,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 13.8,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Turn until the pins drop into their holes",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     13.8
+    ],
+    [
+     "plug_pin0 vs fixture",
+     11.9
+    ],
+    [
+     "plug_nose vs fixture",
+     2.1
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.862,
+    0.927,
+    0.907,
+    0.834,
+    0.097,
+    0.051,
+    0.082
+   ]
+  },
+  {
+   "seed": 800046,
+   "success": false,
+   "time": 118.33000000016936,
+   "peak_force": 15.581087514623901,
+   "touches": 11,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 0.8,
+   "stage": "seat",
+   "yaw_off_deg": 0.3,
+   "realism": "friction+noise+ripple+model_error",
+   "task_ok": false,
+   "joint_margin_deg": 13.9,
+   "joint_margin_at": "joint 3 during 'Turn until the pins drop into their holes'",
+   "peak_contact_N": 8.6,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     8.6
+    ],
+    [
+     "plug_pin0 vs fixture",
+     8.6
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.895,
+    0.972,
+    0.865,
+    0.84,
+    0.094,
+    0.052,
+    0.083
+   ]
+  },
+  {
+   "seed": 800047,
+   "success": true,
+   "time": 23.52999999994516,
+   "peak_force": 16.153081464080586,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 13.4,
+   "realism": "friction+noise+ripple",
+   "task_ok": true,
+   "joint_margin_deg": 13.8,
+   "joint_margin_at": "joint 3 during 'Push until the plug seats'",
+   "peak_contact_N": 5.2,
+   "peak_pair": "plug_pin0 vs fixture",
+   "peak_step": "Push until the plug seats",
+   "top_pairs": [
+    [
+     "plug_pin0 vs fixture",
+     5.2
+    ],
+    [
+     "plug_pin1 vs fixture",
+     4.2
+    ],
+    [
+     "plug_nose vs fixture",
+     1.4
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.899,
+    0.974,
+    0.891,
+    0.853,
+    0.097,
+    0.052,
+    0.086
+   ]
+  },
+  {
+   "seed": 800048,
+   "success": true,
+   "time": 42.71999999990044,
+   "peak_force": 13.353170107154185,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 18.3,
+   "stage": "done",
+   "yaw_off_deg": -4.2,
+   "realism": "friction+noise+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 15.5,
+   "joint_margin_at": "joint 7 during 'Lower the plug until it touches the power strip'",
+   "peak_contact_N": 10.8,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Mistake (turn: no drop): try a fix learned from experience",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     10.8
+    ],
+    [
+     "plug_pin0 vs fixture",
+     9.2
+    ],
+    [
+     "plug_nose vs fixture",
+     2.9
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.902,
+    0.963,
+    0.915,
+    0.861,
+    0.107,
+    0.051,
+    0.088
+   ]
+  },
+  {
+   "seed": 800049,
+   "success": true,
+   "time": 27.929999999934907,
+   "peak_force": 15.624632220381805,
+   "touches": 6,
+   "reflexes": 0,
+   "in_holes": true,
+   "pin_depth_mm": 19.0,
+   "stage": "done",
+   "yaw_off_deg": 8.7,
+   "realism": "noise+ripple+model_error",
+   "task_ok": true,
+   "joint_margin_deg": 14.9,
+   "joint_margin_at": "joint 3 during 'Push until the plug seats'",
+   "peak_contact_N": 16.6,
+   "peak_pair": "plug_pin1 vs fixture",
+   "peak_step": "Spiral on the strip until the pins drop into a socket",
+   "top_pairs": [
+    [
+     "plug_pin1 vs fixture",
+     16.6
+    ],
+    [
+     "plug_pin0 vs fixture",
+     5.5
+    ],
+    [
+     "plug_nose vs fixture",
+     0.8
+    ]
+   ],
+   "calib_s": 70.5,
+   "ripple_rms_after_Nm": [
+    0.851,
+    0.914,
+    0.879,
+    0.805,
+    0.099,
+    0.05,
+    0.089
+   ]
+  }
+ ]
+}
