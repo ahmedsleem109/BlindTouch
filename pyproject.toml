@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blindtouch"
+version = "1.0.0"
+description = "A low-cost robot arm that feels contact force through its own motors (MuJoCo simulation, OpenArm v2)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Ahmed Sleem" }]
+requires-python = ">=3.10"
+dependencies = ["mujoco>=3.3", "numpy>=2.0", "scipy>=1.12", "mapbox-earcut>=1.0", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+video = ["opencv-python-headless>=4.9", "av>=12", "pillow>=10", "imageio-ffmpeg>=0.5"]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["blindtouch*"]
+
+[tool.setuptools.package-data]
+"blindtouch.scenes" = ["*.template.xml", "assets/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 130

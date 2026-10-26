@@ -1,0 +1,13 @@
+# Blind Touch: tested with Python 3.12
+mujoco>=3.3
+numpy>=2.0
+scipy>=1.12
+mapbox-earcut>=1.0     # triangulating the props' outlines
+matplotlib>=3.8        # sensing figure
+# video rendering
+opencv-python-headless>=4.9
+av>=12
+pillow>=10
+imageio-ffmpeg>=0.5
+# tests
+pytest>=8

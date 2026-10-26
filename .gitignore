@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+MUJOCO_LOG.TXT
+
+# generated output: videos, experience memory
+out/
+
+# scenes are generated from code on first use
+blindtouch/scenes/*.xml
+!blindtouch/scenes/openarm_right.template.xml

@@ -1,0 +1,12 @@
+Blind Touch includes the OpenArm v2 robot model (MJCF and meshes) by Enactic, from
+https://github.com/enactic/openarm_mujoco, licensed under the Apache License 2.0
+(blindtouch/scenes/assets/LICENSE-openarm).
+
+Changes from the original (blindtouch/scenes/openarm_right.template.xml):
+  * only the right arm is kept;
+  * position servos are replaced by torque (motor) actuators;
+  * joint frictionloss is set to zero (friction is a per-episode realism effect);
+  * the hand is generated in two variants: a true gripper holding a free tool by
+    friction, and a rigid nominal hand with the tool as a known payload.
+
+The rest of the code is MIT licensed (LICENSE).
